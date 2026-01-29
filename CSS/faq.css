@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    min-height: 250vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+}
+
+
+#faq_word{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#answer{
+    color: rgb(251, 251, 251);
+}
+
+details{
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto; 
+    text-align: left;
+    padding: 20px 10px 20px 20px;
+    background-color: rgb(53, 52, 52);
+    outline: none;
+}
+
+summary{
+    color: white;
+}
+
+
+#q_section{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+
+#register_link{
+    text-decoration: none;
+    color: rgb(101, 165, 42);
+}
+
+#help_text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#edit_label{
+    color: white;
+    font-size: 40px;
+}
+
+
+#input_text{
+    margin: 20px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 650px;
+    padding-left: 15px;
+    padding-right: 43px;
+    font-size: 22px;
+}
+
+
+#search_icon{
+    color: rgb(151, 151, 151);
+    font-size: 23px;
+    transform: translateX(325px) translateY(-57px);
+    cursor: pointer;
+}

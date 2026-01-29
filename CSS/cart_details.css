@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    align-items: center;
+}
+
+
+.image{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    transform: translateX(7px) translateY(7px);
+}
+
+#details{
+    transform: translateY(250px) translateX(-80px);
+    width: 500px;
+    height: 100px;
+    
+}
+
+#main_box{
+    width: 1100px;
+    height: 435px;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(100px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#display_flex{
+    display: flex;
+    gap: 70px;
+}
+
+#color{
+    color: rgb(150, 150, 150);
+    display: flex;
+    gap: 10px;
+}
+
+#size{
+    color: rgb(150, 150, 150);
+    display: flex;
+    gap: 10px;
+}
+
+#short_desc{
+    color: rgb(67, 142, 254);
+    font-weight: bold;
+    transform: translateX(-50px);
+    font-size: 18px;
+}
+
+#stock{
+    color: rgb(102, 255, 47);
+    font-weight: bold;
+}
+
+#ready{
+    transform: translateX(-10px) translateY(-10px);
+}
+
+#number_of_stock{
+    border: 1px solid rgb(146, 144, 144);
+    padding: 8px;
+    transform: translateX(-50px);
+}
+
+#price{
+    font-weight: bold;
+    display: flex;
+    gap: 30px;
+    transform: translateX(-30px);
+
+}
+
+#tax{
+    font-weight: bold;
+    display: flex;
+    gap: 70px;
+
+}
+
+.line1{
+    width: 200px;
+    height: 1px;
+    background-color: rgb(138, 138, 138);
+    transform: translateX(-30px);
+}
+
+#total_without_disc{
+    font-weight: bold;
+    transform: translateX(100px);
+}
+
+#discount{
+    font-weight: bold;
+    display: flex;
+    gap: 50px;
+}
+
+
+#total_with_disc{
+    font-weight: bold;
+    transform: translateX(100px);
+}
+
+
+
+#main_desc{
+    text-align: center;
+    font-size: 20px;
+}
+
+#line3{
+    width: 1100px;
+    height: 2px;
+    background-color: rgb(183, 181, 181);
+    
+
+}
+#under_line{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 600px;
+}
+
+#display_flex1{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    transform: translateY(10px);
+    border: none;
+    background-color: rgb(67, 161, 254);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#all_prices{
+    display: flex;
+    flex-direction: column;
+}

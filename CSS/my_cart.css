@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    min-height: 170vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    align-items: center;
+}
+
+#all{
+    display: flex;
+    gap: 30px;
+}
+
+#main_word2{
+    color: white;
+    font-size: 45px;
+}
+
+#main_carts{
+    width: 900px;
+    height: 530px;
+    background-color: white ;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+#topics{
+    display: flex;
+    gap: 330px;
+    padding-left: 20px;
+    color: rgb(151, 152, 153);
+}
+
+#QP_topics{
+    display: flex;
+    gap: 70px;
+}
+
+#first_item{
+    display: flex;
+    gap: 80px;
+    padding-top: 10px;
+}
+
+#short_desc{
+    font-size: 20px;
+    transform: translateY(-10px);
+    font-weight: bold;
+}
+
+#all_desc{
+    display: flex;
+    flex-direction: column;
+}
+
+#details{
+    display: flex;
+    gap: 10px;
+    color: rgb(134, 135, 136);
+    transform: translateY(-30px);
+}
+
+#image_desc{
+    display: flex;
+    gap: 10px;
+}
+
+#quantity1{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding-left: 10px;
+    border-color: rgb(0, 0, 0);
+    transform: translateY(15px) translateX(30px);
+    outline: none;
+}
+
+#quantity2{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding-left: 10px;
+    border-color: rgb(0, 0, 0);
+    transform: translateY(15px) translateX(-11px);
+    outline: none;
+}
+
+#quantity3{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding-left: 10px;
+    border-color: rgb(0, 0, 0);
+    transform: translateY(15px) translateX(73px);
+    outline: none;
+}
+
+#image1{
+    width: 160px;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#Q_P{
+    display: flex;
+    gap: 40px;
+}
+
+#all_price1{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(45px);
+    
+}
+
+
+#all_price2{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(3px);
+    
+}
+
+
+#all_price3{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(85px);
+    
+}
+
+
+
+#p_each{
+    transform: translateY(-35px);
+    color: #626060;
+}
+
+#price{
+    font-size: 20px;
+    transform: translateY(-10px);
+    font-weight: bold;
+}
+
+#delete_item1{
+    transform: translateX(40px) translateY(16px);
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 8px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#delete_item1:hover{
+    background-color: red;
+    color: white;
+}
+
+
+#delete_item2{
+    transform: translateX(7px) translateY(16px);
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 8px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#delete_item2:hover{
+    background-color: red;
+    color: white;
+}
+
+
+#delete_item3{
+    transform: translateX(82px) translateY(16px);
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 8px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#delete_item3:hover{
+    background-color: red;
+    color: white;
+}
+
+#line{
+    width: 910px;
+    height: 2px;
+    background-color: #a9a6a6;
+    transform: translateX(-10px);
+
+}
+
+
+
+button{
+    transform: translateX(20px) translateY(20px);
+    width: 160px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgb(180, 173, 173);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#free_deli{
+    width: 900px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(126, 236, 126);
+    padding-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+#free_words{
+    color: rgb(7, 100, 7);
+    transform: translateY(-6px);
+    font-size: 20px;
+}
+
+#truck{
+    color:rgb(7, 100, 7) ;
+     padding-top: 18px;
+}
+
+#right_side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#coupon_box{
+    background-color: white;
+    width: 280px;
+    height: 140px;
+    border-radius: 10px;
+    padding-left: 30px;
+
+
+}
+
+#coupon_text{
+    border-radius: 4px;
+    height: 25px ;
+    width: 180px;
+    outline: none;
+    border-color: #000000;
+}
+
+#edit_label{
+    border: none;
+    height: 30px;
+    width: 60px;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    transform: translateX(-47px);
+}
+
+#ckeckout_box{
+    width: 280px;
+    height: 180px;
+    border-radius: 10px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+#price_box{
+    display: flex;
+    gap: 100px;
+}
+
+#disc_box{
+    display: flex;
+    gap: 118px;
+    transform: translateY(-20px);
+}
+
+#total_box{
+    display: flex;
+    gap: 138px;
+    transform: translateY(-40px);
+}
+
+#total{
+    font-weight: bold;
+}
+
+#line2{
+    width: 250px;
+    height: 2px;
+    background-color: #787676;
+    transform: translateX(-5px) translateY(-30px);
+}
+
+#paymet_methods{
+    display: flex;
+    gap: 10px;
+    transform: translateX(10px);
+}
+
+#image{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    transform: translateY(-30px);
+    cursor: pointer;
+}

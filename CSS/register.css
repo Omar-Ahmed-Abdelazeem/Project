@@ -1,0 +1,131 @@
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    background: url(../Photos/background.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+#word_register{
+    position: absolute;
+    transform: translateY(-270px);
+    background: linear-gradient(to right ,rgb(9, 232, 113) 8%, rgb(0, 166, 255) , rgb(8, 238, 192) 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    font-size: 80px;
+    font-family: cursive
+}
+
+.main_border {
+    border: solid;
+    width: 550px;
+    height: 535px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    outline: none;
+    backdrop-filter: blur(5px);
+    transform: translateY(60px);
+    
+}
+
+.dis_flx{
+    display: flex;
+    justify-content: center;  
+    padding-top: 20px;
+
+}
+
+#words_inside_box1{
+    text-align: center;
+    background: linear-gradient(to right ,rgb(9, 232, 113) 8%, rgb(0, 166, 255) , rgb(8, 238, 192) 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.input_text {
+    border-radius: 6px;
+    padding: 6px 20px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgb(179, 179, 179);
+    outline: none;
+    -webkit-text-fill-color: white;   
+    margin: 8px;
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+}
+.edit_label{
+    font-size: 25px;
+
+}
+
+#gen_edit{
+    gap: 40px;
+}
+
+
+#submit_button{
+    margin: 20px;
+    cursor: pointer;    
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: linear-gradient(to right ,rgb(9, 232, 113) 8%, rgb(0, 166, 255) , rgb(8, 238, 192) 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+    transition:  transform 1s, box-shadow 1s ;
+}
+
+#submit_button:hover{
+
+    transform: translateY(-2px) translateX(-2px);
+    box-shadow: 5px 5px 5px rgb(136, 136, 136);
+}
+
+#icons{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+#face_icon{
+    border: solid;
+    padding: 10px 13px ;
+    border-radius: 50%;
+    color:#1877F2 ;
+    background-color: #1877F2;
+    -webkit-text-fill-color: white;
+    cursor: pointer;
+}
+
+
+#goo_icon{
+    border: solid;
+    padding: 10px 11px ;
+    border-radius: 50%;
+    color:#DB4437 ;
+    background-color: #DB4437;
+    -webkit-text-fill-color: white;
+    cursor: pointer;
+}
+
+#twitt_icon{
+    border: solid;
+    padding: 10px 11px ;
+    border-radius: 50%;
+    color:#000000 ;
+    background-color: #000000;
+    -webkit-text-fill-color: white;  
+    cursor: pointer; 
+}
+
