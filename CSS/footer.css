@@ -121,3 +121,56 @@
 .padd{
     transform: translateY(-33px);
 }
+
+@media (max-width: 768px) {
+  
+  /* Footer */
+  footer {
+    padding: 30px 15px !important;
+  }
+  
+  /* Footer sections - stack vertically */
+  footer > div,
+  footer section,
+  footer div[class*="section"],
+  footer div[class*="column"] {
+    width: 100% !important;
+    display: block !important;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  /* Footer lists */
+  footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  footer li {
+    margin: 10px 0;
+  }
+  
+  /* Footer links */
+  footer a {
+    display: inline-block;
+    padding: 5px 0;
+  }
+  
+  /* Newsletter/forms */
+  footer input {
+    width: 100% !important;
+    margin-bottom: 10px;
+    font-size: 16px !important;
+  }
+  
+  footer button {
+    width: 100% !important;
+  }
+  
+  /* Copyright */
+  footer p,
+  div[class*="copy"] {
+    text-align: center;
+    font-size: 14px;
+  }
+}
