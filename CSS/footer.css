@@ -121,3 +121,8 @@
 .padd{
     transform: translateY(-33px);
 }
+
+@media (max-width: 480px) {
+    
+    
+}

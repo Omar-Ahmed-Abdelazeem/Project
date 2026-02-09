@@ -1,5 +1,5 @@
 #bar{
-    position: relative;
+    /* position: relative; */
     top: 0;
     left: 0;
     width: 100%;
@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     gap: 600px;
-    background: linear-gradient(to  bottom ,rgb(214, 183, 6)  , #212121);
+    background: rgb(39, 39, 39);
 
 }
 
@@ -117,7 +117,7 @@
 }
 
 #cart_icon{
-    color: black;
+    color: rgb(255, 255, 255);
     transform: translateY(32px);
     font-size: 20px;
     cursor: pointer;
@@ -127,10 +127,40 @@
     transform: translateY(10px) translateX(6px);
     font-size: 20px;
     cursor: pointer;
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 
 a{
     text-decoration: none;
 }
+
+
+/* @media (max-width: 900px) {
+    #bar {
+        gap: 200px; 
+    }
+} */
+
+@media (max-width: 768px) {
+    #bar {
+        width: 795px;
+        padding: 10px 15px;
+        text-align: center;
+        display: flex;
+        gap: 190px;
+        justify-content: space-between;
+    }
+
+}
+
+/* @media (max-width: 400px) {
+    #orca_image {
+        height: 40px;
+        width: 40px;
+    }
+
+    .menu-icon {
+        font-size: 22px;
+    }
+} */
