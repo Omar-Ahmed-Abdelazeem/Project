@@ -1,29 +1,31 @@
 body{
     margin: 0;
-    min-height: 200vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #212121;
+    min-width: 1100px;
 }
 
 #bar{
-    height: 200px ;
+    height: 200px;
 }
 
 #under_header{
-    width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     height: 60px;
     background-color: rgb(220, 191, 153);
     margin-top: 10px;
     margin: 10px auto 0 auto; 
     border-radius: 50px;
     display: flex;              
-    justify-content: center;   
+    justify-content: space-between;   
     align-items: center;       
-    gap: 450px;
+    padding: 0 25px;
+    box-sizing: border-box;
     transform: translateY(-120px);
 }
-
 
 #search_icon{
     color: white;
@@ -32,14 +34,14 @@ body{
 }
 
 #search{
-    background-color:#e76704 ;
+    background-color: #e76704;
     outline: none;
     border-radius: 50px;
     padding-left: 40px;
     padding-right: 10px;
     height: 35px;
-    width: 200px;
-    font-size: 18px;
+    width: 160px;
+    font-size: 16px;
     border: none;
     color: white;
 }
@@ -48,26 +50,27 @@ body{
     color: white;
 }
 
-
-
 .shop_word{
     color: #ffffff;
     padding-top: 50px;
     font-size: 60px;
     text-align: center;
     transform: translateY(-120px);
-    
 }
+
 #carts{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     margin-top: 30px;
     transform: translateY(-110px);
+    flex-wrap: wrap;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 #main_cart{
-    background: linear-gradient(to bottom, rgb(255, 255, 255) 50%,rgb(255, 255, 255) 100%); 
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%); 
     height: 480px;
     width: 300px;
     text-align: center;
@@ -76,10 +79,11 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: transform 1s;
+    flex-shrink: 0;
 }
 
 #main_cart:hover{
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
 #name{
@@ -109,7 +113,6 @@ body{
     color: rgb(123, 123, 123);
 }
 
-
 #main_cart_discr{
     font-weight: bolder;
     color: black;
@@ -120,14 +123,12 @@ body{
     height: 240px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-
+    object-fit: cover;
 }
 
 #price{
     color: black;
 }
-
-
 
 #stars{
     color: gold;
@@ -146,7 +147,6 @@ body{
 #add_to_cart:hover{
     color: white;
     background-color: black;
-
 }
 
 #add_cart{
@@ -154,38 +154,33 @@ body{
     border: 1px solid black;
     transform: translateY(150px) translateX(50px);
     width: 200px;
-    height:80px;
-    
+    height: 80px;
     border-radius: 10px;
     text-decoration: none;
     color: black;
-
     transition: color 0.5s, background-color 0.5s;
 }
 
 #add_cart:hover{
     color: white;
     background-color: black;
-
 }
 
-
 #new_cart{
-    background: linear-gradient(to bottom,rgb(152, 151, 151) 0% ,rgb(152, 151, 151) 50% , rgb(255, 255, 255) 50%,rgb(255, 255, 255) 100%); 
+    background: linear-gradient(to bottom, rgb(152, 151, 151) 0%, rgb(152, 151, 151) 50%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%); 
     height: 480px;
     width: 300px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
     border-radius: 5px;
     transition: transform 1s;
+    flex-shrink: 0;
 }
 
 #new_cart:hover{
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
-
 
 #multi_word{
     font-size: 50px;
@@ -194,25 +189,4 @@ body{
 
 #word_new{
     transform: translateY(-25px);
-}
-
-@media (max-width: 600px) {
-    #under_header{
-        width: 700px;
-        transform: translateX(50px) translateY(-100px);
-        gap: 200px;
-    }
-
-    #carts{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #main_content{
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-    }
 }
