@@ -298,7 +298,7 @@ button{
 /* Small phone (only if needed) */
 @media (max-width: 400px) {
     body{
-        min-width: 300px;
+        /* min-width: 280px; */
         align-items: normal;
     }
     #main_word2{
@@ -512,6 +512,46 @@ button{
 
 /* Tablet */
 @media (max-width: 1024px) {
-    
+        #bar{
+        min-width: 10px;
+        padding: 0px ;
+        align-items: center;
+        justify-content: space-around;
+        height: 70px;
+    }
+    #icon_main{
+        font-size: 9px;
+        margin-top: 20px;
+        transform: translateY(-3px);
+        gap: 5px;
+    }
+    #orca_image{
+        height: 25px;
+        width: 25px;
+    }
+
+    #bar_links{
+        gap: 8px;
+        width: 220px;
+    }
+
+    .link{
+        font-size: 8px;
+        
+    }
+
+    #cart_icon{
+        font-size: 10px;
+        gap: 6px;
+        transform: translateY(-6px);
+    }
+    #cart_word{
+        font-size: 13px;
+        transform: translateY(-2px);
+    }
+    .menu-icon {
+        font-size: 13px;
+
+    }
 }
 

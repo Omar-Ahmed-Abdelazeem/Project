@@ -133,7 +133,7 @@ a{
 /* Phone */
 @media (max-width: 400px) {
     #bar{
-        /* min-width: 80%; */
+        min-width: 200px;
         padding: 0px ;
         align-items: center;
         justify-content: space-around;
@@ -152,7 +152,7 @@ a{
 
     #bar_links{
         gap: 8px;
-        width: 220px;
+        /* width: 220px; */
     }
 
     .link{

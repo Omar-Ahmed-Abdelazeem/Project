@@ -119,3 +119,62 @@
 .padd{
     transform: translateY(-33px);
 }
+
+@media (max-width: 768px) {
+    #footer{
+        min-width: 200px;
+        
+    }
+    
+    #footer_aboveLine{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+        left: 0;
+        
+    }
+    .padd{
+        text-align: center;
+        transform: translateX(-55px) translateY(-30px);
+    }
+    
+    #mid{
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .flex_links{
+        
+        justify-content: center;
+
+    }
+    
+    #dow{
+
+        transform: translateY(-20px);
+    }
+
+    #contact_butt{
+        display: flex;
+        transform: translateX(50px);
+
+    }
+
+    #footer_submit{
+
+        height: 38px;
+        width: 75px;
+        transform: translateX(-50px) translateY(11px);
+
+    }
+    #icons{
+        justify-content: center;
+    }
+    .footer_contact{
+        justify-content: center;
+    }
+    #footer_input{
+        width: 120px;
+    }
+}

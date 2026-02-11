@@ -2,247 +2,247 @@
 
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY CART</title>
-    <link rel="stylesheet" href="../CSS/my_cart.css">
-    <link rel="stylesheet" href="../CSS/header.css">
-    <link rel="stylesheet" href="../CSS/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="icon" href="../Photos/orca_icon.png">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY CART</title>
+        <link rel="stylesheet" href="../CSS/my_cart.css">
+        <link rel="stylesheet" href="../CSS/header.css">
+        <link rel="stylesheet" href="../CSS/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="icon" href="../Photos/orca_icon.png">
 
-</head>
+    </head>
 
-<body>
-    <div id="bar">
-        <a href="index.html">
-            <div id="icon_main">
-                <img src="../Photos/orca_icon.png" id="orca_image">
-                <div>
-                    <h1 id="orca_word">ORCA</h1>
+    <body>
+        <div id="bar">
+            <a href="index.html">
+                <div id="icon_main">
+                    <img src="../Photos/orca_icon.png" id="orca_image">
+                    <div>
+                        <h1 id="orca_word">ORCA</h1>
+                    </div>
+
                 </div>
 
-            </div>
+            </a>
+            <div id="bar_links">
+                <div>
+                    <a href="index.html" class="link">
+                        <h1>Home</h1>
+                    </a>
+                </div>
+                <div>
+                    <a href="add_cart.html" class="link">
+                        <h1>Add Cart</h1>
+                    </a>
+                </div>
+                <div>
+                    <a href="faq.html" class="link">
+                        <h1>FAQ</h1>
+                    </a>
+                </div>
+                <div>
+                    <a href="login.html" class="link">
+                        <h1>Log in</h1>
+                    </a>
+                </div>
+                <div id="cart">
+                    <a href="my_cart.html"><i class="fas fa-shopping-cart" id="cart_icon"></i></a>
+                    <a href="my_cart.html">
+                        <p id="cart_word">My Cart</p>
+                    </a>
+                </div>
+                <div class="menu-wrapper">
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon">
+                        ☰
+                    </label>
 
-        </a>
-        <div id="bar_links">
-            <div>
-                <a href="index.html" class="link">
-                    <h1>Home</h1>
-                </a>
-            </div>
-            <div>
-                <a href="add_cart.html" class="link">
-                    <h1>Add Cart</h1>
-                </a>
-            </div>
-            <div>
-                <a href="faq.html" class="link">
-                    <h1>FAQ</h1>
-                </a>
-            </div>
-            <div>
-                <a href="login.html" class="link">
-                    <h1>Log in</h1>
-                </a>
-            </div>
-            <div id="cart">
-                <a href="my_cart.html"><i class="fas fa-shopping-cart" id="cart_icon"></i></a>
-                <a href="my_cart.html">
-                    <p id="cart_word">My Cart</p>
-                </a>
-            </div>
-            <div class="menu-wrapper">
-                <input type="checkbox" id="menu-toggle">
-                <label for="menu-toggle" class="menu-icon">
-                    ☰
-                </label>
+                    <ul class="dropdown">
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="404.html">404</a></li>
+                    </ul>
+                </div>
 
-                <ul class="dropdown">
-                    <li><a href="profile.html">Profile</a></li>
-                    <li><a href="404.html">404</a></li>
-                </ul>
+
             </div>
 
 
         </div>
 
 
-    </div>
 
 
 
-
-
-    <div id="main_content">
-        <h1 id="main_word2">My Shopping Bag</h1>
-        <div id="all">
-            
-            <div id="main_carts">
-                <div id="above_line">
-                    <div>
-                        <h2 id="topics">Products</h2>
-                        <div id="image_desc">
-                            <img src="../Photos/bracelet.webp" id="image">
-                            <div id="all_desc">
-                                <p id="short_desc">Bracelet</p>
-                                <div id="details">
-                                    <p>Size: XL</p>
-                                    <p>Color: Blue</p>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-                        <div id="image_desc">
-                            <img src="../Photos/bag.jpg" id="image">
-                            <div id="all_desc">
-                                <p id="short_desc">Handbag</p>
-                                <div id="details">
-                                    <p>Size: Medium</p>
-                                    <p>Color: White</p>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-                        <div id="image_desc">
-                            <img src="../Photos/phone.webp" id="image">
-                            <div id="all_desc">
-                                <p id="short_desc">Pixel Phone</p>
-                                <div id="details">
-                                    <p>Color: Blue</p>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-    
-    
-                    </div>
-                    <div id="main_q">
-                        <h2 id="topics">Quantity</h2>
-                        <div id="QP_topics">
-                            <input type="number" id="quantity" min="1">
-                            <input type="number" id="quantity" min="1">
-                            <input type="number" id="quantity" min="1">
-    
-                        </div>
-    
-                    </div>
-    
-                    <div id="main_P">
-                        <h2 id="topics">Price</h2>
-    
+        <div id="main_content">
+            <h1 id="main_word2">My Shopping Bag</h1>
+            <div id="all">
+                
+                <div id="main_carts">
+                    <div id="above_line">
                         <div>
-    
-                            <div id="all_price">
-                                <p id="price">$48.00</p>
-                                <p id="p_each">$12.00 each</p>
-    
+                            <h2 id="topics">Products</h2>
+                            <div id="image_desc">
+                                <img src="../Photos/bracelet.webp" id="image">
+                                <div id="all_desc">
+                                    <p id="short_desc">Bracelet</p>
+                                    <div id="details">
+                                        <p>Size: XL</p>
+                                        <p>Color: Blue</p>
+        
+                                    </div>
+        
+                                </div>
+        
                             </div>
-    
-                            <div id="all_price">
-                                <p id="price">$45.00</p>
-                                <p id="p_each">$9.00 each</p>
-    
+                            <div id="image_desc">
+                                <img src="../Photos/bag.jpg" id="image">
+                                <div id="all_desc">
+                                    <p id="short_desc">Handbag</p>
+                                    <div id="details">
+                                        <p>Size: Medium</p>
+                                        <p>Color: White</p>
+        
+                                    </div>
+        
+                                </div>
+        
                             </div>
-                            <div id="all_price">
-                                <p id="price">$50.00</p>
-                                <p id="p_each">$50.00 each</p>
-    
+                            <div id="image_desc">
+                                <img src="../Photos/phone.webp" id="image">
+                                <div id="all_desc">
+                                    <p id="short_desc">Pixel Phone</p>
+                                    <div id="details">
+                                        <p>Color: Blue</p>
+        
+                                    </div>
+        
+                                </div>
+        
                             </div>
-    
+        
+        
                         </div>
-    
+                        <div id="main_q">
+                            <h2 id="topics">Quantity</h2>
+                            <div id="QP_topics">
+                                <input type="number" id="quantity" min="1">
+                                <input type="number" id="quantity" min="1">
+                                <input type="number" id="quantity" min="1">
+        
+                            </div>
+        
+                        </div>
+        
+                        <div id="main_P">
+                            <h2 id="topics">Price</h2>
+        
+                            <div>
+        
+                                <div id="all_price">
+                                    <p id="price">$48.00</p>
+                                    <p id="p_each">$12.00 each</p>
+        
+                                </div>
+        
+                                <div id="all_price">
+                                    <p id="price">$45.00</p>
+                                    <p id="p_each">$9.00 each</p>
+        
+                                </div>
+                                <div id="all_price">
+                                    <p id="price">$50.00</p>
+                                    <p id="p_each">$50.00 each</p>
+        
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div id="trash">
+                            <i class="fa-solid fa-trash" id="delete_item"></i>
+                            <i class="fa-solid fa-trash" id="delete_item"></i>
+                            <i class="fa-solid fa-trash" id="delete_item"></i>
+        
+                        </div>
+
                     </div>
-                    <div id="trash">
-                        <i class="fa-solid fa-trash" id="delete_item"></i>
-                        <i class="fa-solid fa-trash" id="delete_item"></i>
-                        <i class="fa-solid fa-trash" id="delete_item"></i>
-    
+
+
+
+                    <div id="line_and_under">
+                        <div id="line">
+
+                        </div>
+                        <form action="index.html">
+                            <button>
+                                ❮ Continue Shopping
+                            </button>
+
+                        </form>
+
                     </div>
 
                 </div>
 
 
 
-                <div id="line_and_under">
-                    <div id="line">
-
+                <div id="right_side">
+                    <div id="coupon_box">
+                        <h3>Have coupon?</h3>
+                        <input type="text" name="coupon" id="coupon_text">
+                        <input type="submit" id="edit_label" value="Apply">
                     </div>
-                    <form action="index.html">
-                        <button>
-                            ❮ Continue Shopping
-                        </button>
-
-                    </form>
-
+                    
+                    <div id="ckeckout_box">
+                        <div id="price_box">
+                            <p>Total price:</p>
+                            <p>$143.00</p>
+                            
+                        </div>
+                        
+                        <div id="disc_box">
+                            <p>Dicount:</p>
+                            <p>$0.00</p>
+                            
+                        </div>
+                        
+                        <div id="total_box">
+                            <p>Total:</p>
+                            <p id="total">$143.00</p>
+        
+                        </div>
+                        <div id="line2">
+                            
+                        </div>
+                        
+                        <div id="paymet_methods">
+                            <img src="../Photos/paypal.png" id="image_card">
+                            <img src="../Photos/visa.jpg" id="image_card">
+                            <img src="../Photos/mastercard.jpg" id="image_card">
+                        </div>
+                    </div>
+                    
+                    
+                    
                 </div>
+                
+            </div>
+            <div id="free_deli">
+                <i class="fa-solid fa-truck" id="truck"></i>
+                <p id="free_words">Free Delivery Within 1-2 weeks</p>
 
             </div>
 
 
 
-            <div id="right_side">
-                <div id="coupon_box">
-                    <h3>Have coupon?</h3>
-                    <input type="text" name="coupon" id="coupon_text">
-                    <input type="submit" id="edit_label" value="Apply">
-                </div>
-                
-                <div id="ckeckout_box">
-                    <div id="price_box">
-                        <p>Total price:</p>
-                        <p>$143.00</p>
-                        
-                    </div>
-                    
-                    <div id="disc_box">
-                        <p>Dicount:</p>
-                        <p>$0.00</p>
-                        
-                    </div>
-                    
-                    <div id="total_box">
-                        <p>Total:</p>
-                        <p id="total">$143.00</p>
-    
-                    </div>
-                    <div id="line2">
-                        
-                    </div>
-                    
-                    <div id="paymet_methods">
-                        <img src="../Photos/paypal.png" id="image_card">
-                        <img src="../Photos/visa.jpg" id="image_card">
-                        <img src="../Photos/mastercard.jpg" id="image_card">
-                    </div>
-                </div>
-                
-                
-                
-            </div>
-            
+
+
+
+
+
         </div>
-        <div id="free_deli">
-            <i class="fa-solid fa-truck" id="truck"></i>
-            <p id="free_words">Free Delivery Within 1-2 weeks</p>
-
-        </div>
-
-
-
-
-
-
-
-
-    </div>
 
 
 
@@ -258,95 +258,95 @@
 
 
 
-    <div id="footer">
-        <div id="footer_aboveLine">
+        <div id="footer">
+            <div id="footer_aboveLine">
 
-            <div>
-                <h1 class="footer_topics">About Us</h1>
-                <p id="about_contact">
-                    At ORCA, we believe in creating simple, powerful, <br> and user-friendly digital experiences. <br>
-                    We focus on quality, creativity, and continuous improvement. <br> Whether you're browsing, searching
-                    ,or connecting with us, <br> we want every interaction to feel smooth and enjoyable.
-                </p>
-                <div id="icons">
-                    <i class="fab fa-facebook-f" id="face_icon"></i>
-                    <i class="fab fa-twitter" id="twitt_icon"></i>
-                    <i class="fab fa-linkedin-in" id="linked_icon"></i>
-                </div>
-            </div>
-            <div>
-                <h1 class="footer_topics">Quick Links</h1>
-                <div class="flex_links">
-                    <div>
-                        <a href="index.html" class="footer_links">
-                            <p>Home</p>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="faq.html" class="footer_links">
-                            <p>FAQ</p>
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="flex_links" id="p_4">
-                    <div>
-                        <a href="profile.html" class="footer_links">
-                            <p>Profile</p>
-                        </a>
-                    </div>
-
-                    <div>
-                        <a href="404.html" class="footer_links">
-                            <p>404</p>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="padd">
-                    <a href="my_cart.html" class="footer_links">
-                        <p>My Cart</p>
-                    </a>
-                </div>
-                <div class="padd">
-                    <a href="add_cart.html" class="footer_links">
-                        <p>Add Cart</p>
-                    </a>
-                </div>
-                <div class="padd">
-                    <a href="login.html" class="footer_links">
-                        <p>Log in</p>
-                    </a>
-                </div>
-
-
-            </div>
-            <div>
-                <h1 class="footer_topics">Contact</h1>
-                <div class="footer_contact">
-                    <i class="fas fa-phone footer_icon"></i>
-                    <p>+1 234 5678 901</p>
-                </div>
-                <div class="footer_contact">
-                    <i class="fas fa-envelope footer_icon"></i>
-                    <p>info@gmail.com</p>
-                </div>
                 <div>
-                    <input type="text" name="search" placeholder="Enter your e-mail" id="footer_input">
-                    <input type="submit" value="Send" id="footer_submit">
+                    <h1 class="footer_topics">About Us</h1>
+                    <p id="about_contact">
+                        At ORCA, we believe in creating simple, powerful, <br> and user-friendly digital experiences. <br>
+                        We focus on quality, creativity, and continuous improvement. <br> Whether you're browsing, searching
+                        ,or connecting with us, <br> we want every interaction to feel smooth and enjoyable.
+                    </p>
+                    <div id="icons">
+                        <i class="fab fa-facebook-f" id="face_icon"></i>
+                        <i class="fab fa-twitter" id="twitt_icon"></i>
+                        <i class="fab fa-linkedin-in" id="linked_icon"></i>
+                    </div>
+                </div>
+                <div id="mid">
+                    <h1 class="footer_topics">Quick Links</h1>
+                    <div class="flex_links">
+                        <div>
+                            <a href="index.html" class="footer_links">
+                                <p>Home</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="faq.html" class="footer_links">
+                                <p>FAQ</p>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="flex_links" id="p_4">
+                        <div>
+                            <a href="profile.html" class="footer_links">
+                                <p>Profile</p>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="404.html" class="footer_links">
+                                <p>404</p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="padd">
+                        <a href="my_cart.html" class="footer_links">
+                            <p>My Cart</p>
+                        </a>
+                    </div>
+                    <div class="padd">
+                        <a href="add_cart.html" class="footer_links">
+                            <p>Add Cart</p>
+                        </a>
+                    </div>
+                    <div class="padd">
+                        <a href="login.html" class="footer_links">
+                            <p>Log in</p>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div id="dow">
+                    <h1 class="footer_topics">Contact</h1>
+                    <div class="footer_contact">
+                        <i class="fas fa-phone footer_icon"></i>
+                        <p>+1 234 5678 901</p>
+                    </div>
+                    <div class="footer_contact">
+                        <i class="fas fa-envelope footer_icon"></i>
+                        <p>info@gmail.com</p>
+                    </div>
+                    <div id="contact_butt">
+                        <input type="text" name="search" placeholder="Enter your e-mail" id="footer_input">
+                        <input type="submit" value="Send" id="footer_submit">
+                    </div>
                 </div>
             </div>
+
+
+
         </div>
 
 
 
-    </div>
 
 
-
-
-
-</body>
+    </body>
 
 </html>
