@@ -18,24 +18,41 @@ body{
 }
 
 #main_carts{
-    width: 900px;
-    height: 530px;
+    display: flex;
+    flex-direction: column;
     background-color: white ;
     border-radius: 10px;
     padding-left: 10px;
-
+    width: 880px;
+    height: 490px;
+    
+}
+#above_line{
+    
+    display: flex;
+    gap: 50px;
+    
 }
 
+
 #topics{
-    display: flex;
-    gap: 330px;
     padding-left: 20px;
     color: rgb(151, 152, 153);
 }
 
+#trash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+
 #QP_topics{
     display: flex;
+    flex-direction: column;
     gap: 70px;
+    transform: translateX(12px);
+    
 }
 
 #first_item{
@@ -67,74 +84,47 @@ body{
     gap: 10px;
 }
 
-#quantity1{
+#quantity{
     height: 40px;
     width: 100px;
     font-size: 20px;
     border-radius: 7px;
     padding-left: 10px;
     border-color: rgb(0, 0, 0);
-    transform: translateY(15px) translateX(30px);
+    /* transform: translateY(15px) translateX(30px); */
     outline: none;
+    align-items: center;
 }
 
-#quantity2{
-    height: 40px;
-    width: 100px;
-    font-size: 20px;
-    border-radius: 7px;
-    padding-left: 10px;
-    border-color: rgb(0, 0, 0);
-    transform: translateY(15px) translateX(-11px);
-    outline: none;
-}
 
-#quantity3{
-    height: 40px;
-    width: 100px;
-    font-size: 20px;
-    border-radius: 7px;
-    padding-left: 10px;
-    border-color: rgb(0, 0, 0);
-    transform: translateY(15px) translateX(73px);
-    outline: none;
-}
-
-#image1{
+#image{
     width: 160px;
     height: 100px;
     margin-left: 10px;
     border-radius: 10px;
 }
 
-#Q_P{
-    display: flex;
-    gap: 40px;
-}
-
-#all_price1{
+#main_q{
     display: flex;
     flex-direction: column;
-    transform: translateX(45px);
-    
+    gap: 25px;
 }
 
-
-#all_price2{
+#main_P{
     display: flex;
     flex-direction: column;
-    transform: translateX(3px);
-    
+    gap: 5px;
+    align-items: center;
 }
 
-
-#all_price3{
+#all_price{
     display: flex;
     flex-direction: column;
-    transform: translateX(85px);
+    align-items: center;
+    transform: translateX(12px);
+
     
 }
-
 
 
 #p_each{
@@ -148,7 +138,7 @@ body{
     font-weight: bold;
 }
 
-#delete_item1{
+#delete_item{
     transform: translateX(40px) translateY(16px);
     border: 1px solid ;
     padding: 10px;
@@ -157,47 +147,23 @@ body{
     cursor: pointer;
 }
 
-#delete_item1:hover{
+#delete_item:hover{
     background-color: red;
     color: white;
 }
 
-
-#delete_item2{
-    transform: translateX(7px) translateY(16px);
-    border: 1px solid ;
-    padding: 10px;
-    border-radius: 8px;
-    height: 20px;
-    cursor: pointer;
+#line_and_under{
+    display: flex;
+    flex-direction: column;
 }
 
-#delete_item2:hover{
-    background-color: red;
-    color: white;
-}
-
-
-#delete_item3{
-    transform: translateX(82px) translateY(16px);
-    border: 1px solid ;
-    padding: 10px;
-    border-radius: 8px;
-    height: 20px;
-    cursor: pointer;
-}
-
-#delete_item3:hover{
-    background-color: red;
-    color: white;
-}
 
 #line{
-    width: 910px;
+    width: 889px;
     height: 2px;
     background-color: #a9a6a6;
     transform: translateX(-10px);
-
+    
 }
 
 
@@ -214,7 +180,7 @@ button{
 }
 
 #free_deli{
-    width: 900px;
+    width: 880px;
     height: 60px;
     border-radius: 10px;
     background-color: rgb(126, 236, 126);
@@ -222,8 +188,9 @@ button{
     margin-top: 10px;
     display: flex;
     gap: 10px;
-
+    
 }
+
 
 #free_words{
     color: rgb(7, 100, 7);
@@ -233,7 +200,12 @@ button{
 
 #truck{
     color:rgb(7, 100, 7) ;
-     padding-top: 18px;
+    padding-top: 18px;
+}
+
+#main_dil{
+    display: flex;
+    flex-direction: column;
 }
 
 #right_side{
@@ -250,7 +222,7 @@ button{
     border-radius: 10px;
     padding-left: 30px;
 
-
+    
 }
 
 #coupon_text{
@@ -315,10 +287,231 @@ button{
     transform: translateX(10px);
 }
 
-#image{
+#image_card{
     width: 70px;
     height: 40px;
     border-radius: 10px;
     transform: translateY(-30px);
     cursor: pointer;
 }
+
+/* Small phone (only if needed) */
+@media (max-width: 400px) {
+    body{
+        min-width: 300px;
+        align-items: normal;
+    }
+    #main_word2{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #first_item{
+        gap: 0px;
+    }
+
+    #image_desc{
+        display: flex;
+        gap: 5px;
+    }
+
+    #image{
+        width: 50px;
+        height: 40px;
+        margin-left: 2px;
+
+    }
+    #all_desc{
+        font-size: 10px;
+        transform: translateY(-8px);
+    }
+    #short_desc{
+        font-size: 15px;
+    }
+    #details{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+    #quantity{
+        height: 25px;
+        width: 60px;
+        font-size: 10px;
+    }
+
+    #Q_P{
+        gap: 0px;
+    }
+    #main_carts{
+        gap: 0px;
+        padding-left: 0;
+        width: 375px;
+        height: 420px;
+    }
+    #free_deli{
+        width: 366px;
+    }
+    #line{
+        width: 385px;
+        transform: translateX(-10px);
+        
+    }
+    
+    #line_and_under{
+        transform: translateY(-50px);
+    }
+    #all{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #coupon_box{
+        width: 345px;
+    }
+
+    #above_line{
+        gap: 0px;
+        size: 50px;
+    }
+
+    #ckeckout_box{
+        width: 345px;
+
+    }
+
+    #topics{
+        padding-left: 2px;
+    }
+
+    #main_q{
+        transform: translateX(-8px);
+    }
+    
+    #all_price{
+        
+        transform: translateX(-2px);
+    }
+    #trash{
+        transform: translateX(-12px);
+
+    }
+
+
+
+
+    
+    
+}
+
+/* Phone */
+@media (max-width: 768px) {
+    body{
+        min-width: 300px;
+        align-items: normal;
+    }
+    #main_word2{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #first_item{
+        gap: 0px;
+    }
+
+    #image_desc{
+        display: flex;
+        gap: 5px;
+    }
+
+    #image{
+        width: 50px;
+        height: 40px;
+        margin-left: 2px;
+
+    }
+    #all_desc{
+        font-size: 10px;
+        transform: translateY(-8px);
+    }
+    #short_desc{
+        font-size: 15px;
+    }
+    #details{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+    #quantity{
+        height: 25px;
+        width: 60px;
+        font-size: 10px;
+    }
+
+    #Q_P{
+        gap: 0px;
+    }
+    #main_carts{
+        gap: 0px;
+        padding-left: 0;
+        width: 375px;
+        height: 420px;
+    }
+    #free_deli{
+        width: 366px;
+    }
+    #line{
+        width: 385px;
+        transform: translateX(-10px);
+        
+    }
+    
+    #line_and_under{
+        transform: translateY(-50px);
+    }
+    #all{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #coupon_box{
+        width: 345px;
+    }
+
+    #above_line{
+        gap: 0px;
+        size: 50px;
+    }
+
+    #ckeckout_box{
+        width: 345px;
+
+    }
+
+    #topics{
+        padding-left: 2px;
+    }
+
+    #main_q{
+        transform: translateX(-8px);
+    }
+    
+    #all_price{
+        
+        transform: translateX(-2px);
+    }
+    #trash{
+        transform: translateX(-12px);
+
+    }
+
+
+
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    
+}
+
