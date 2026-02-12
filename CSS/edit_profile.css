@@ -102,3 +102,26 @@ body{
     border-radius: 5px;
 
 }
+
+@media (max-width: 400px) {
+    body{
+        min-width: 300px;
+    }
+    #main_edit{
+        width: 373px;
+        transform: translateY(0px);
+
+    }
+    .new_inputs{
+        gap: 30px;
+    }
+    .input_text{
+        width: 150px;
+    }
+
+    #update_button{
+        transform: translateX(110px) translateY(20px);
+    }
+
+
+}

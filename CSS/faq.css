@@ -77,3 +77,26 @@ summary{
     transform: translateX(325px) translateY(-57px);
     cursor: pointer;
 }
+
+@media (max-width: 400px) {
+    body{
+        min-width: 300px;
+    }
+
+    details{
+        width: 343px;
+
+    }
+
+    #input_text{
+        width: 280px;
+
+    }
+
+    
+    #search_icon{
+        transform: translateX(138px) translateY(-57px);
+    }
+
+
+}

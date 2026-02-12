@@ -298,7 +298,7 @@ button{
 /* Small phone (only if needed) */
 @media (max-width: 400px) {
     body{
-        /* min-width: 280px; */
+        min-width: 280px;
         align-items: normal;
     }
     #main_word2{

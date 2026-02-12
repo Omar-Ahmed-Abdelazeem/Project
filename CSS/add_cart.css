@@ -83,6 +83,54 @@ body{
 }
 
 
+
 #text_description{
     height: 80px;
+}
+
+@media (max-width: 400px) {
+    #main_box{
+        height: 400px;
+        width: 333px;
+        margin-top: 50px;
+        gap: 20px;
+        
+    }
+    #image{
+        height: 220px;
+        width: 150px;
+
+    }
+
+    #cart_disc{
+        gap: 5px;
+        font-size: 28px;
+    }
+
+    .edit_label{
+        font-size: 20px;
+    }
+    .input_text{
+        height: 20px;
+        width: 150px;
+        font-size: 15px;
+
+    }
+    #add_cart{
+        font-size: 22px;
+        width:  200px;
+        height: 40px;
+        transform: translateY(-100px);
+
+
+    }
+
+    
+    #text_description{
+        height: 40px;
+    }
+
+ 
+
+
 }

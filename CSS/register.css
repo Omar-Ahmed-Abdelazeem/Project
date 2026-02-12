@@ -129,3 +129,24 @@ body {
     cursor: pointer; 
 }
 
+
+
+@media (max-width: 400px) {
+    body{
+        min-width: 300px;
+    }
+    .main_border {
+        width: 373px;
+    }
+
+    .input_text {
+        width: 130px;
+    }
+
+    #word_register{
+        background-clip: text;
+        font-size: 50px;
+
+    }
+
+}
