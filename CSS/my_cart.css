@@ -296,13 +296,13 @@ button{
 }
 
 /* Small phone (only if needed) */
-@media (max-width: 400px) {
+@media (max-width: 412px) {
     body{
-        min-width: 280px;
+        max-width: 358px;
         align-items: normal;
     }
     #main_word2{
-        font-size: 40px;
+        font-size: 38px;
         text-align: center;
     }
     
@@ -346,14 +346,14 @@ button{
     #main_carts{
         gap: 0px;
         padding-left: 0;
-        width: 375px;
+        width: 358px;
         height: 420px;
     }
     #free_deli{
-        width: 366px;
+        width: 348px;
     }
     #line{
-        width: 385px;
+        width: 368px;
         transform: translateX(-10px);
         
     }
@@ -367,7 +367,7 @@ button{
         gap: 20px;
     }
     #coupon_box{
-        width: 345px;
+        width: 328px;
     }
 
     #above_line{
@@ -376,7 +376,7 @@ button{
     }
 
     #ckeckout_box{
-        width: 345px;
+        width: 328px;
 
     }
 
@@ -385,116 +385,7 @@ button{
     }
 
     #main_q{
-        transform: translateX(-8px);
-    }
-    
-    #all_price{
-        
-        transform: translateX(-2px);
-    }
-    #trash{
-        transform: translateX(-12px);
-
-    }
-
-
-
-
-    
-    
-}
-
-/* Phone */
-@media (max-width: 768px) {
-    body{
-        min-width: 300px;
-        align-items: normal;
-    }
-    #main_word2{
-        font-size: 40px;
-        text-align: center;
-    }
-    
-    #first_item{
-        gap: 0px;
-    }
-
-    #image_desc{
-        display: flex;
-        gap: 5px;
-    }
-
-    #image{
-        width: 50px;
-        height: 40px;
-        margin-left: 2px;
-
-    }
-    #all_desc{
-        font-size: 10px;
-        transform: translateY(-8px);
-    }
-    #short_desc{
-        font-size: 15px;
-    }
-    #details{
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-
-    }
-    #quantity{
-        height: 25px;
-        width: 60px;
-        font-size: 10px;
-    }
-
-    #Q_P{
-        gap: 0px;
-    }
-    #main_carts{
-        gap: 0px;
-        padding-left: 0;
-        width: 375px;
-        height: 420px;
-    }
-    #free_deli{
-        width: 366px;
-    }
-    #line{
-        width: 385px;
         transform: translateX(-10px);
-        
-    }
-    
-    #line_and_under{
-        transform: translateY(-50px);
-    }
-    #all{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    #coupon_box{
-        width: 345px;
-    }
-
-    #above_line{
-        gap: 0px;
-        size: 50px;
-    }
-
-    #ckeckout_box{
-        width: 345px;
-
-    }
-
-    #topics{
-        padding-left: 2px;
-    }
-
-    #main_q{
-        transform: translateX(-8px);
     }
     
     #all_price{
@@ -502,56 +393,13 @@ button{
         transform: translateX(-2px);
     }
     #trash{
-        transform: translateX(-12px);
+        transform: translateX(-28px);
 
     }
 
 
 
+
+    
+    
 }
-
-/* Tablet */
-@media (max-width: 1024px) {
-        #bar{
-        min-width: 10px;
-        padding: 0px ;
-        align-items: center;
-        justify-content: space-around;
-        height: 70px;
-    }
-    #icon_main{
-        font-size: 9px;
-        margin-top: 20px;
-        transform: translateY(-3px);
-        gap: 5px;
-    }
-    #orca_image{
-        height: 25px;
-        width: 25px;
-    }
-
-    #bar_links{
-        gap: 8px;
-        width: 220px;
-    }
-
-    .link{
-        font-size: 8px;
-        
-    }
-
-    #cart_icon{
-        font-size: 10px;
-        gap: 6px;
-        transform: translateY(-6px);
-    }
-    #cart_word{
-        font-size: 13px;
-        transform: translateY(-2px);
-    }
-    .menu-icon {
-        font-size: 13px;
-
-    }
-}
-

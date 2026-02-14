@@ -18,7 +18,7 @@ body{
     padding: 20px;
     display: flex;
     gap: 170px;
-    box-shadow: 8px 8px 8px 10px rgb(214, 183, 6);
+    /* box-shadow: 8px 8px 8px 10px rgb(214, 183, 6); */
     
 }
 
@@ -88,10 +88,10 @@ body{
     height: 80px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 412px) {
     #main_box{
         height: 400px;
-        width: 333px;
+        width: 263px;
         margin-top: 50px;
         gap: 20px;
         
@@ -108,11 +108,11 @@ body{
     }
 
     .edit_label{
-        font-size: 20px;
+        font-size: 15px;
     }
     .input_text{
         height: 20px;
-        width: 150px;
+        width: 80px;
         font-size: 15px;
 
     }
