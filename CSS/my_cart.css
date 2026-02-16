@@ -298,7 +298,7 @@ button{
 
 
 @media (max-width: 767px) {
-
+    
     #main_word2{
         font-size: 38px;
         text-align: center;
@@ -307,17 +307,17 @@ button{
     #first_item{
         gap: 0px;
     }
-
+    
     #image_desc{
         display: flex;
         gap: 5px;
     }
-
+    
     #image{
         width: 50px;
         height: 40px;
         margin-left: 2px;
-
+        
     }
     #all_desc{
         font-size: 10px;
@@ -326,11 +326,11 @@ button{
     #short_desc{
         font-size: 15px;
     }
-
+    
     #disc_box{
         gap: 125px;
     }
-
+    
     #total_box{
         gap: 130px;
     }
@@ -338,14 +338,14 @@ button{
         display: flex;
         flex-direction: column;
         gap: 0px;
-
+        
     }
     #quantity{
         height: 25px;
         width: 60px;
         font-size: 10px;
     }
-
+    
     #Q_P{
         gap: 0px;
     }
@@ -398,35 +398,35 @@ button{
         /* justify-items: center;
         margin: 0 auto; */
     }
-
+    
     #above_line{
         gap: 0px;
         size: 50px;
     }
-
+    
     #ckeckout_box{
-
+        
         padding-left: 0px;
         width: 101%;
         max-width: 767px;
         margin: 0 auto;
         justify-items: center;
-
+        
     }
-
+    
     #topics{
         padding-left: 0px;
     }
-
+    
     #QP_topics{
-
+        
         transform: translateX(0px) translateY(-5px);
     }
-
+    
     #main_q{
         transform: translateX(0px) translateY(0px);
     }
-
+    
     #main_p{
         transform: translateX(0px) translateY(0px);
     }
@@ -437,15 +437,145 @@ button{
     }
     #trash{
         margin: 0;
-
+        
     }
-
+    
     #delete_item{
         transform: translateX(0px) translateY(0px);
     }
-
+    
 }
 
-@media (max-width: 1024px) {
 
+
+@media (min-width: 768px) and (max-width: 1024px){
+    body{
+        max-width: 1024px;
+        min-height: 100vh;
+    }
+    #main_carts{
+
+        padding-left: 0;
+        width: 90%;
+        max-width: 1024px;
+        height: 460px;
+
+        
+    }
+    #all{
+
+        gap: 20px;
+    }
+
+    
+    #image_desc{
+        display: flex;
+        gap: 5px;
+    }
+    
+    #image{
+        width: 120px;
+        height: 80px;
+        margin-left: 2px;
+        
+    }
+    #all_desc{
+        font-size: 15px;
+
+    }
+    #short_desc{
+        font-size: 15px;
+    }
+    
+    #disc_box{
+        gap: 125px;
+    }
+    
+    #total_box{
+        gap: 130px;
+    }
+
+    #quantity{
+        height: 25px;
+        width: 60px;
+        font-size: 10px;
+    }
+    
+    #Q_P{
+        gap: 0px;
+    }
+    
+    #free_deli{
+        padding-left: 2px;
+        /* margin: 0 auto; */
+        width: 68%;
+        max-width: 767px;
+        margin-top: 10px;
+    }
+    #line{
+        align-items: center;
+        transform: translateX(80px);
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+        
+    }
+    #line2{
+        width: 100%;
+        max-width: 1024px;
+
+    }
+
+    #coupon_text{
+        width: 140px;
+    }
+    #paymet_methods{
+        transform: translateX(0px);
+    }
+    
+    #line_and_under{
+        transform: translateY(-50px) translateX(-80.5px);
+        
+    }
+
+    #coupon_box{
+        padding-left: 10px;
+        width: 95%;
+        max-width: 1024px;
+    }
+    
+    #above_line{
+        gap: 0px;
+
+    }
+    
+    #ckeckout_box{
+        padding-left: 10px;
+        height: 190px;
+        width: 95%;
+        max-width: 1024px;
+        
+    }
+    #price_box{
+        gap: 40px;
+    }
+
+    #disc_box{
+        gap: 70px;
+    }
+
+    #total_box{
+        gap: 78px;
+    }
+    
+
+    button{
+        transform: translateX(100px) translateY(18px);
+
+    }
+
+    
+    #delete_item{
+        transform: translateX(0px) translateY(0px);
+    }
 }
