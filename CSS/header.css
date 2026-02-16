@@ -1,4 +1,5 @@
 #bar{
+    margin: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -133,7 +134,8 @@ a{
 /* Phone */
 @media (max-width: 412px) {
     #bar{
-        max-width: 374px;
+        width: 100%;
+        max-width: 412px;
         padding: 0px ;
         align-items: center;
         justify-content: space-around;
