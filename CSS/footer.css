@@ -120,10 +120,10 @@
     transform: translateY(-33px);
 }
 
-@media (max-width: 412px) {
+@media (max-width: 767px) {
     #footer{
         width: 100%;
-        max-width: 412px;
+        max-width: 767px;
         
     }
     

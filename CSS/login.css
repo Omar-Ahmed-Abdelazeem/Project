@@ -133,7 +133,7 @@ body {
     background-color: #000000;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 
     #word_welcome{
         text-align: center;

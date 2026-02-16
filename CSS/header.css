@@ -131,11 +131,18 @@ a{
     text-decoration: none;
 }
 
+@media (min-width: 769px) and (max-width: 1024px){
+    #bar{
+        width: 200%;
+        max-width: 1024px;
+    }
+}
+
 /* Phone */
-@media (max-width: 412px) {
+@media (max-width: 767px) {
     #bar{
         width: 100%;
-        max-width: 412px;
+        max-width: 767px;
         padding: 0px ;
         align-items: center;
         justify-content: space-around;
@@ -178,4 +185,3 @@ a{
 
 
 }
-

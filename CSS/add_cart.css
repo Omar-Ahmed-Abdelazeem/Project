@@ -88,18 +88,19 @@ body{
     height: 80px;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 767px) {
     #main_box{
         height: 390px;
         width: 85%;
-        max-width: 412px;
+        max-width: 767px;
         margin-top: 50px;
         gap: 20px;
         
     }
     #image{
         height: 220px;
-        width: 150px;
+        width: 100%;
+        max-width: 767px;
 
     }
 
@@ -113,7 +114,8 @@ body{
     }
     .input_text{
         height: 18px;
-        width: 120px;
+        width: 85%;
+        max-width: 767px;
         font-size: 15px;
 
     }

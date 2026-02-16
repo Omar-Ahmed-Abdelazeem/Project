@@ -81,20 +81,20 @@ summary{
     cursor: pointer;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 767px) {
     /* body{
         max-width: 374px;
     } */
 
     details{
         width: 88%;
-        max-width: 412px;
+        max-width: 767px;
 
     }
 
     #input_text{
         width: 68%;
-        max-width: 412px;
+        max-width: 767px;
 
     }
 

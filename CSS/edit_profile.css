@@ -103,14 +103,14 @@ body{
 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 767px) {
     /* body{
         max-width: 372px;
     } */
     #main_edit{
         margin: 0 auto;
-        width: 102%;
-        max-width: 412px;
+        width: 101%;
+        max-width: 767px;
         margin-top: 20px;
         margin-bottom: 20px;
         transform: translateY(0px);
