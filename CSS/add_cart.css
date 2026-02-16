@@ -90,8 +90,9 @@ body{
 
 @media (max-width: 412px) {
     #main_box{
-        height: 400px;
-        width: 263px;
+        height: 390px;
+        width: 85%;
+        max-width: 412px;
         margin-top: 50px;
         gap: 20px;
         
@@ -111,8 +112,8 @@ body{
         font-size: 15px;
     }
     .input_text{
-        height: 20px;
-        width: 80px;
+        height: 18px;
+        width: 120px;
         font-size: 15px;
 
     }
@@ -120,7 +121,7 @@ body{
         font-size: 22px;
         width:  200px;
         height: 40px;
-        transform: translateY(-100px);
+        transform: translateY(-120px);
 
 
     }

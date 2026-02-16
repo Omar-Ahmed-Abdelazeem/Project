@@ -104,13 +104,17 @@ body{
 }
 
 @media (max-width: 412px) {
-    body{
+    /* body{
         max-width: 372px;
-    }
+    } */
     #main_edit{
-        width: 363px;
-        /* height: 950px; */
+        margin: 0 auto;
+        width: 102%;
+        max-width: 412px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         transform: translateY(0px);
+        
 
     }
     .new_inputs{

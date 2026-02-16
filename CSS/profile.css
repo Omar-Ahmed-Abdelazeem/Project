@@ -11,7 +11,7 @@ body{
 #image_container{
     position: relative; 
     width: 1520px;
-    height: 1050px;
+    height: 1055px;
 }
 
 #image{
@@ -87,6 +87,7 @@ body{
     padding: 10px;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 #box_in_box{
@@ -162,20 +163,22 @@ body{
 }
 
 
-@media (max-width: 400px) {
-    body{
-        min-width: 300px;
-    }
+@media (max-width: 412px) {
 
 
     #image_container{ 
-        width: 378px;
+        height: 100%;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 412px;
         
     }
 
     #main_box{
         height: 860px;
-        width: 378px;
+        margin: 0 auto;
+        width: 95%;
+        max-width: 412px;
         background: linear-gradient(rgba(0, 0, 0 ,0.3) 0%,
                                     rgba(0, 0, 0 ,0.3) 40%,
                                     rgba(0, 0, 0, 0.5) 40%,
@@ -184,13 +187,16 @@ body{
                                     rgba(0, 0, 0 ,0.3) 100%) ;
     }
     #line1{
-        width: 378px;
+        width: 100%;
+        max-width: 412px;;
     }
     #line2{
-        width: 378px;
+        width: 100%;
+        max-width: 412px;
     }
     #line3{
-        width: 378px;
+        width: 100%;
+        max-width: 412px;
     }
 
     #box_in_box{
@@ -198,11 +204,12 @@ body{
     }
     
     #jobs{
-        gap: 20px;
+        gap: 8px;
     }
 
     #words{
-        width: 360px;
+        width: 95%;
+        max-width: 412px;
     }
 
     #image{

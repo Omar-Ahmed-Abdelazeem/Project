@@ -82,17 +82,19 @@ summary{
 }
 
 @media (max-width: 412px) {
-    body{
+    /* body{
         max-width: 374px;
-    }
+    } */
 
     details{
-        width: 308px;
+        width: 88%;
+        max-width: 412px;
 
     }
 
     #input_text{
-        width: 240px;
+        width: 68%;
+        max-width: 412px;
 
     }
 
