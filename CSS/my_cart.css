@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     min-height: 170vh;
@@ -6,6 +7,10 @@ body{
     background-color: #212121;
     align-items: center;
     
+}
+
+#main_content {
+    width: 90%;  
 }
 
 #all{
@@ -24,7 +29,8 @@ body{
     background-color: white ;
     border-radius: 10px;
     padding-left: 10px;
-    width: 880px;
+    /* width: 880px; */
+    width: 65%;
     height: 490px;
     
 }
@@ -41,13 +47,14 @@ body{
     color: rgb(151, 152, 153);
 }
 
-#trash{
+#trash {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 70px;
+    width: 6%;          /* slightly wider so icon has room */
 }
-
 #QP_topics{
     display: flex;
     flex-direction: column;
@@ -87,7 +94,7 @@ body{
 
 #quantity{
     height: 40px;
-    width: 100px;
+    width: 80%;
     font-size: 20px;
     border-radius: 7px;
     padding-left: 10px;
@@ -99,7 +106,7 @@ body{
 
 
 #image{
-    width: 160px;
+    width: 35%;
     height: 100px;
     margin-left: 10px;
     border-radius: 10px;
@@ -109,6 +116,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    width: 10%;
 }
 
 #main_P{
@@ -116,6 +124,8 @@ body{
     flex-direction: column;
     gap: 5px;
     align-items: center;
+    width: 16%;
+
 }
 
 #all_price{
@@ -139,14 +149,22 @@ body{
     font-weight: bold;
 }
 
-#delete_item{
-    transform: translateX(40px) translateY(16px);
-    border: 1px solid ;
+#image_dis{
+    width: 50%;
+}
+
+#delete_item {
+    border: 1px solid;
     padding: 10px;
     border-radius: 8px;
     height: 20px;
+    width: 18px;        /* fixed px instead of % */
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* centers the icon inside */
 }
+
 
 #delete_item:hover{
     background-color: red;
@@ -160,7 +178,7 @@ body{
 
 
 #line{
-    width: 889px;
+    width: 101%;
     height: 2px;
     background-color: #a9a6a6;
     transform: translateX(-10px);
@@ -181,7 +199,7 @@ button{
 }
 
 #free_deli{
-    width: 880px;
+    width: 300px;
     height: 60px;
     border-radius: 10px;
     background-color: rgb(126, 236, 126);
@@ -297,7 +315,12 @@ button{
 }
 
 
+
 @media (max-width: 767px) {
+
+    #main_content {
+        width: 340px;  
+    }
     
     #main_word2{
         font-size: 38px;
@@ -422,12 +445,19 @@ button{
         
         transform: translateX(0px) translateY(-5px);
     }
+
+    #image_dis{
+        width: 40%;
+    }
+
     
     #main_q{
+        width: 25%;
         transform: translateX(0px) translateY(0px);
     }
     
-    #main_p{
+    #main_P{
+        width: 23%;
         transform: translateX(0px) translateY(0px);
     }
     
@@ -436,7 +466,7 @@ button{
         transform: translateX(0px) translateY(-5px);
     }
     #trash{
-        margin: 0;
+        width: 10%;
         
     }
     
@@ -448,23 +478,74 @@ button{
 
 
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 767px) and (max-width: 1024px){
     body{
-        max-width: 1024px;
-        min-height: 100vh;
+        
+        min-height: 110vh;
+    }
+    #main_content {
+        width: 99%;  
     }
     #main_carts{
-
-        padding-left: 0;
-        width: 90%;
+        
+        padding-left: 5px;
+        width: 100%;
         max-width: 1024px;
         height: 460px;
+        
+        
+    }
+    #coupon_box{
+        padding-left: 10px;
+        width: 95%;
+        max-width: 1024px;
+        /* box-sizing: border-box; */
+    }
+    
+    #above_line{
+        gap: 0px;
+
+    }
+    #main_P{
+        gap: 0px;
+    }
+
+    #all_price{
+
+        transform: translateX(0px);
+    }
+    
+    #ckeckout_box{
+        padding-left: 10px;
+        height: 190px;
+        width: 95%;
+        max-width: 1024px;
+        /* box-sizing: border-box; */
 
         
     }
-    #all{
+    #free_deli{
+        padding-left: 10px;
+        margin: 0 ;
+        width: 99%;
+        max-width: 1024px;
+        margin-top: 10px;
+    }
+    #line{
+        width: 100.8%;
+        transform: translateX(76px);
+        margin: 0;
+        
+    }
+    #line2{
+        width: 100%;
+        max-width: 1024px;
 
-        gap: 20px;
+    }
+    #all{
+        width: 100%;
+        gap: 10px;
+        margin: auto;
     }
 
     
@@ -504,27 +585,26 @@ button{
     #Q_P{
         gap: 0px;
     }
-    
-    #free_deli{
-        padding-left: 2px;
-        /* margin: 0 auto; */
-        width: 68%;
-        max-width: 767px;
-        margin-top: 10px;
+    #main_q{
+        width: 25%;
     }
-    #line{
-        align-items: center;
-        transform: translateX(80px);
-        width: 100%;
-        max-width: 1024px;
-        margin: 0 auto;
+    #main_P{
+        width: 23%;
+    }
+    
+    #delete_item{
+        transform: translateX(0px) translateY(0px);
+        width: 35%;
         
     }
-    #line2{
-        width: 100%;
-        max-width: 1024px;
-
+    #image_dis{
+        width: 65%;
     }
+    #details{
+        font-size: 12px;
+        
+    }
+    
 
     #coupon_text{
         width: 140px;
@@ -538,24 +618,6 @@ button{
         
     }
 
-    #coupon_box{
-        padding-left: 10px;
-        width: 95%;
-        max-width: 1024px;
-    }
-    
-    #above_line{
-        gap: 0px;
-
-    }
-    
-    #ckeckout_box{
-        padding-left: 10px;
-        height: 190px;
-        width: 95%;
-        max-width: 1024px;
-        
-    }
     #price_box{
         gap: 40px;
     }
@@ -567,6 +629,11 @@ button{
     #total_box{
         gap: 78px;
     }
+
+        
+    #topics{
+        padding-left: 0px;
+    }
     
 
     button{
@@ -574,8 +641,8 @@ button{
 
     }
 
+
+
     
-    #delete_item{
-        transform: translateX(0px) translateY(0px);
-    }
 }
+
