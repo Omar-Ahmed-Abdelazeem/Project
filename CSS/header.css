@@ -15,7 +15,6 @@
     color: black;
 }
 
-/* ── Wrapper 1 (tablet) ── */
 .menu-wrapper {
     position: relative;
     z-index: 1;
@@ -59,7 +58,7 @@
     display: block;
 }
 
-/* ── Wrapper 2 (phone) ── */
+
 .menu-wrapper2 {
     position: relative;
     z-index: 1;
@@ -115,6 +114,11 @@
     width: 50px;
 }
 
+#h_link{
+    display: flex;
+    gap: 30px;
+}
+
 #main_content{
     flex: 1;
 }
@@ -123,7 +127,6 @@
     display: flex;
     gap: 30px;
     margin-top: 20px;
-    /* align-items: center; */
 }
 
 .link{
@@ -189,13 +192,13 @@ a{
     }
 
     #icon_main{
-        font-size: 9px;
-        margin-top: 17px;
+        font-size: 10px;
+        margin-top: 15px;
         gap: 5px;
     }
     #orca_image{
-        height: 25px;
-        width: 25px;
+        height: 28px;
+        width: 28px;
     }
     .menu-wrapper2{
         display: block;
@@ -217,12 +220,12 @@ a{
         
     #cart_icon{
         font-size: 15px;
-        gap: 6px;
+        /* gap: 6px; */
         margin-top: 8px;
     }
     #cart_word{
-        font-size: 20px;
-        margin-top: 4px;
+        font-size: 18px;
+        margin-top: 5px;
     }
     .menu-icon2 {
         font-size: 18px;
@@ -239,33 +242,22 @@ a{
     }
 
     #icon_main{
-        width: 20%;
         margin-top: 17px;
-        gap: 5px;
     }
-    #orca_image{
-        size: 15%;
-    }
-    
-    #bar_links{
 
+    #h_link{
+        gap: 15px;
+    }
+
+    #bar_links{
         margin-top: 40px;
-        width: 61%
+        gap: 10px;
+
     }
-    
-    #cart_icon{
-        size: 20%;
-        gap: 6px;
-        /* margin: 0px; */
-        /* transform: translateY(-6px); */
+
+    .menu-wrapper{
+        margin-top: -2px;
     }
-    #cart_word{
-        size: 20%;
-        
-    }
-    .menu-icon {
-        size: 20%;
-        
-    }
+
     
 }
