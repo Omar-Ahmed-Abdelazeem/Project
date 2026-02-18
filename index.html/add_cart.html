@@ -98,49 +98,52 @@
         
         <div id="main_content">
             <div id="main_box">
-                <div id="image_part">
-                    <img src="../Photos/sneakers.jpeg" id="image">
-                </div>
-                <div id="cart_disc">
-                    <div id="label_input_flex">
-                        <label for="item_name" class="edit_label">Item Name</label>
-                        <input type="text" name="item_name" class="input_text">      
+                <div id="without_b">
 
+                    <div id="image_part">
+                        <img src="../Photos/sneakers.jpeg" id="image">
                     </div>
-
-                    <div id="label_input_flex">
-                        <label for="item_description" class="edit_label">Item Description</label>
-                        <textarea name="item_description" class="input_text" id="text_description"></textarea>    
-
+                    <div id="cart_disc">
+                        <div id="label_input_flex">
+                            <label for="item_name" class="edit_label">Item Name</label>
+                            <input type="text" name="item_name" class="input_text">      
+    
+                        </div>
+    
+                        <div id="label_input_flex">
+                            <label for="item_description" class="edit_label">Item Description</label>
+                            <textarea name="item_description" class="input_text" id="text_description"></textarea>    
+    
+                        </div>
+    
+                        <div id="label_input_flex">
+    
+                            <label for="price" class="edit_label">Price</label>
+                            <input type="number" name="price" class="input_text" id="price_input">
+                        </div>
+    
+                        <div id="label_input_flex">
+                            <label for="rating" class="edit_label">Rating ( Stars )</label>
+                            <input type="number" name="rating" class="input_text" min="1" max="5">      
+    
+                        </div>
+    
+                        <div id="label_input_flex">
+                            <label for="discount" class="edit_label">Discount</label>
+                            <input type="number" name="discount" class="input_text" min="0" max="100" step="5">      
+    
+                        </div>
+                        
                     </div>
-
-                    <div id="label_input_flex">
-
-                        <label for="price" class="edit_label">Price</label>
-                        <input type="number" name="price" class="input_text" id="price_input">
-                    </div>
-
-                    <div id="label_input_flex">
-                        <label for="rating" class="edit_label">Rating ( Stars )</label>
-                        <input type="number" name="rating" class="input_text" min="1" max="5">      
-
-                    </div>
-
-                    <div id="label_input_flex">
-                        <label for="discount" class="edit_label">Discount</label>
-                        <input type="number" name="discount" class="input_text" min="0" max="100" step="5">      
-
-                    </div>
-                    
                 </div>
 
                 
-            </div>
-            <div id="add_div">
-                <form action="index.html">
-                    <input type="submit" value="ADD CART" id="add_cart">
-
-                </form>
+                <div id="add_div">
+                    <form action="index.html">
+                        <input type="submit" value="ADD CART" id="add_cart">
+    
+                    </form>
+                </div>
             </div>
 
 

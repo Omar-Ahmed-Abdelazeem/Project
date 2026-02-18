@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    min-height: 250vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #212121;
@@ -23,8 +23,7 @@ details{
     cursor: pointer;
     border: 1px black solid;
     border-radius: 10px;
-    width: 100%;
-    max-width: 800px;
+    width: 60%;
     margin: auto; 
     text-align: left;
     padding: 20px 10px 20px 20px;
@@ -66,8 +65,7 @@ summary{
     border: none;
     border-radius: 50px;
     height: 50px;
-    width: 100%;
-    max-width: 650px;
+    width: 650px;
     padding-left: 15px;
     padding-right: 43px;
     font-size: 22px;
@@ -75,6 +73,7 @@ summary{
 
 
 #search_icon{
+    width: 20%;
     color: rgb(151, 151, 151);
     font-size: 23px;
     transform: translateX(325px) translateY(-57px);
@@ -93,8 +92,7 @@ summary{
     }
 
     #input_text{
-        width: 68%;
-        max-width: 767px;
+        width: 240px;
 
     }
 
@@ -103,5 +101,18 @@ summary{
         transform: translateX(118px) translateY(-57px);
     }
 
+
+}
+
+@media (min-width: 767px) and (max-width: 1024px){
+    #input_text{
+        width: 440px;
+
+    }
+
+    
+    #search_icon{
+        transform: translateX(210px) translateY(-57px);
+    }
 
 }

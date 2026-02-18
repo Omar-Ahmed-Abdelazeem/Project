@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    min-height: 200vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #212121;
@@ -11,11 +11,13 @@ body{
 #main_edit{
     width: 500px;
     height: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background: linear-gradient(rgb(199, 199, 199) 0%,
                                 rgb(199, 199, 199) 11%,
                                 rgb(255, 255, 255) 11%,
                                 rgb(255, 255, 255) 100%) ;
-    transform: translateY(50px);
+    /* transform: translateY(50px); */
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -34,6 +36,7 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     cursor: pointer;
+    z-index: 11;
 }
 
 #image_inside{
@@ -43,7 +46,7 @@ body{
     justify-content: center;
     margin-top: 20px;
     transform: translateY(-40px);
-    z-index: -1;
+    z-index: 1;
 
 
 }
@@ -104,13 +107,10 @@ body{
 }
 
 @media (max-width: 767px) {
-    /* body{
-        max-width: 372px;
-    } */
+
     #main_edit{
-        margin: 0 auto;
-        width: 101%;
-        max-width: 767px;
+        padding: 0 10px;
+        width: 95%;
         margin-top: 20px;
         margin-bottom: 20px;
         transform: translateY(0px);
