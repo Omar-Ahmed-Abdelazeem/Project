@@ -1,6 +1,7 @@
 body {
     height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;  
     align-items: center;      
     background: url(../Photos/background.jpg) no-repeat center fixed;
@@ -8,25 +9,23 @@ body {
 }
 
 #word_register{
-    position: absolute;
-    transform: translateY(-270px);
     background: linear-gradient(to right ,rgb(9, 232, 113) 8%, rgb(0, 166, 255) , rgb(8, 238, 192) 90%);
     background-clip: text;
     -webkit-text-fill-color: transparent;  
     font-size: 80px;
-    font-family: cursive
+    font-family: cursive;
+    text-align: center;
+    
 }
 
 .main_border {
     border: solid;
     width: 550px;
     height: 535px;
-    justify-content: center;
-    align-items: center;
     border-radius: 10px;
     outline: none;
     backdrop-filter: blur(5px);
-    transform: translateY(60px);
+    transform: translateY(-50px);
     
 }
 
@@ -53,7 +52,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: rgb(179, 179, 179);
     outline: none;
-    -webkit-text-fill-color: white;   
+    -webkit-text-fill-color: rgb(255, 255, 255);   
     margin: 8px;
     width: 200px;
     height: 20px;
@@ -131,21 +130,19 @@ body {
 
 
 
-@media (max-width: 412px) {
-    body{
-        max-width: 348px;
-    }
+@media (max-width: 767px) {
     .main_border {
-        width: 373px;
+        width: 350px;
     }
 
     .input_text {
-        width: 130px;
+        width: 120px;
+        font-size: 15px;
+
     }
 
-    #word_register{
-        background-clip: text;
-        font-size: 50px;
+    .edit_label{
+        font-size: 22px;
 
     }
 
