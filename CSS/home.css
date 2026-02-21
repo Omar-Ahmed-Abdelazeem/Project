@@ -4,7 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #212121;
-    min-width: 1100px;
+    /* min-width: 1100px; */
 }
 
 #bar{
@@ -12,18 +12,18 @@ body{
 }
 
 #under_header{
-    width: 90%;
-    max-width: 1000px;
     height: 60px;
     background-color: rgb(220, 191, 153);
-    margin-top: 10px;
-    margin: 10px auto 0 auto; 
+    /* margin-top: 10px; */
+    margin: 10px auto; 
     border-radius: 50px;
     display: flex;              
     justify-content: space-between;   
+    width: 90%;
+    max-width: 1000px;
     align-items: center;       
     padding: 0 25px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     transform: translateY(-120px);
 }
 
@@ -50,6 +50,40 @@ body{
     color: white;
 }
 
+#icons_h{
+    display: flex;
+    gap: 20px;
+}
+
+#face_icon_h{
+    border: solid;
+    padding: 9px 13px;
+    border-radius: 50%;
+    color: #e76704;
+    background-color: #e76704;
+    -webkit-text-fill-color: white;
+    cursor: pointer;
+}
+
+#twitt_icon_h{
+    border: solid;
+    padding: 10px 11px;
+    border-radius: 50%;
+    color: #e76704;
+    background-color: #e76704;
+    -webkit-text-fill-color: white;
+    cursor: pointer;
+}
+
+#linked_icon_h{
+    border: solid;
+    padding: 10px 11px;
+    border-radius: 50%;
+    color: #e76704;
+    background-color: #e76704;
+    -webkit-text-fill-color: white;
+    cursor: pointer;
+}
 .shop_word{
     color: #ffffff;
     padding-top: 50px;
@@ -64,9 +98,9 @@ body{
     justify-content: center;
     margin-top: 30px;
     transform: translateY(-110px);
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 0 15px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 #main_cart{
@@ -79,7 +113,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: transform 1s;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
 }
 
 #main_cart:hover{
@@ -189,4 +223,29 @@ body{
 
 #word_new{
     transform: translateY(-25px);
+}
+
+@media (max-width: 767px) {
+    #under_header{  
+        width: 80%;
+        max-width: 500px;
+    }
+
+    #icons_h{
+        /* display: flex; */
+        justify-content: space-between;
+        width: 40%;
+        /* max-width: 310%; */
+        gap: 5px;
+    }
+    #search{
+        width: 80%;
+        box-sizing: border-box;
+    }
+    #carts{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
 }

@@ -81,10 +81,6 @@ summary{
 }
 
 @media (max-width: 767px) {
-    /* body{
-        max-width: 374px;
-    } */
-
     details{
         width: 88%;
         max-width: 767px;
