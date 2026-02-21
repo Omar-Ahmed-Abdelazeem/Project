@@ -208,7 +208,7 @@ body{
     }
     
     #jobs{
-        gap: 0px;
+        gap: 8px;
         /* justify-content: space-around;
         width: 10%; */
     }
