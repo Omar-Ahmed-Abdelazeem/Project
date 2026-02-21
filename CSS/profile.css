@@ -184,10 +184,10 @@ body{
         width: 95%;
         max-width: 430px;
         background: linear-gradient(rgba(0, 0, 0 ,0.3) 0%,
-                                    rgba(0, 0, 0 ,0.3) 40%,
-                                    rgba(0, 0, 0, 0.5) 40%,
-                                    rgba(0, 0, 0, 0.5) 55.5%,
-                                    rgba(0, 0, 0 ,0.3) 55.5%,
+                                    rgba(0, 0, 0 ,0.3) 39%,
+                                    rgba(0, 0, 0, 0.5) 39%,
+                                    rgba(0, 0, 0, 0.5) 54.5%,
+                                    rgba(0, 0, 0 ,0.3) 54.5%,
                                     rgba(0, 0, 0 ,0.3) 100%) ;
     }
     #line1{
@@ -208,14 +208,14 @@ body{
     }
     
     #jobs{
-        gap: 0px;
+        gap: 4px;
         /* justify-content: space-around;
         width: 10%; */
     }
 
-    /* .job{
-        font-size: 10px;
-    } */
+    .job{
+        font-size: 13px;
+    }
 
     #words{
         width: 95%;
