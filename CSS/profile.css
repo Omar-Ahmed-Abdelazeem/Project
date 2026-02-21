@@ -208,7 +208,9 @@ body{
     }
     
     #jobs{
-        gap: 8px;
+        gap: 5px;
+        /* justify-content: space-around;
+        width: 10%; */
     }
 
     #words{
@@ -221,11 +223,3 @@ body{
         transform: translateY(-0px);
     }
 }
-
-/* @media (min-width: 767px) and (max-width: 1024px){
-    #image_container{
-
-        width: 100%;
-
-    }
-} */
