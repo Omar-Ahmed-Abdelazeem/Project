@@ -186,8 +186,8 @@ body{
         background: linear-gradient(rgba(0, 0, 0 ,0.3) 0%,
                                     rgba(0, 0, 0 ,0.3) 39%,
                                     rgba(0, 0, 0, 0.5) 39%,
-                                    rgba(0, 0, 0, 0.5) 54.5%,
-                                    rgba(0, 0, 0 ,0.3) 54.5%,
+                                    rgba(0, 0, 0, 0.5) 55%,
+                                    rgba(0, 0, 0 ,0.3) 55%,
                                     rgba(0, 0, 0 ,0.3) 100%) ;
     }
     #line1{
@@ -214,7 +214,7 @@ body{
     }
 
     .job{
-        font-size: 13px;
+        font-size: 14px;
     }
 
     #words{
