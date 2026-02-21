@@ -213,6 +213,10 @@ body{
         width: 10%; */
     }
 
+    .job{
+        font-size: 10px;
+    }
+
     #words{
         width: 95%;
         max-width: 767px;
