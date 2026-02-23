@@ -66,11 +66,11 @@
     border-radius: 50px;
     background-color: #e76704;
     color: white;
-    height: 38px;
+    height: 39px;
     width: 74px;
     outline: none;
     border: none;
-    transform: translateX(-60px) translateY(1px);
+    transform: translateX(-60px);
     cursor: pointer;
 }
 
