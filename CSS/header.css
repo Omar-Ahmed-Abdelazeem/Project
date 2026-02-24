@@ -160,6 +160,8 @@
 }
 
 #cart{
+    /* border: 1px solid blue;
+    padding: 10px; */
     display: flex;
     /* align-items: center; */
     margin-top: 5px;
