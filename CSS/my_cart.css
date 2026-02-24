@@ -311,6 +311,9 @@ button{
     transform: translateY(-30px);
     cursor: pointer;
 }
+#bar_links{
+    margin-top: 0px;
+}
 
 
 
@@ -482,11 +485,7 @@ button{
 
 
 
-@media (min-width: 767px) and (max-width: 1024px){
-    /* body{
-        
-        min-height: 110vh;
-    } */
+@media (min-width: 767px) and (max-width: 1147px){
     #main_content {
         width: 99%;  
     }

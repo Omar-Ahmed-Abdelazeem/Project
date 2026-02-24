@@ -160,6 +160,9 @@ body{
     transition: background-color 1s, color 1s  ;
 
 }
+#bar_links{
+    margin-top: 0px;
+}
 
 #edit_button:hover{
     background-color: rgb(0, 0, 0);

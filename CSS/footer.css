@@ -124,6 +124,28 @@
     width: 20%;
 }
 
+#go_up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff7a18, #ffb347);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+#go_up:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width: 767px) {
     #footer{
         width: 100%;
