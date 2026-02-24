@@ -383,7 +383,7 @@ button{
         padding-left: 0;
         width: 103%;
         max-width: 767px;
-        height: 420px;
+        height: 430px;
         margin: 0 auto;
         
     }
@@ -480,6 +480,7 @@ button{
     #delete_item{
         transform: translateX(0px) translateY(0px);
     }
+
     
 }
 

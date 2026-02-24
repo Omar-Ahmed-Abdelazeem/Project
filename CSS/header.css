@@ -260,7 +260,7 @@ a{
     }
 
     #bar_links{
-        margin-top: 40px;
+        /* margin-top: 40px; */
         gap: 10px;
 
     }
