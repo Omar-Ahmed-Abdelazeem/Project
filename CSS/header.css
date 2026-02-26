@@ -8,11 +8,11 @@
     justify-content: space-between;
     padding: 0 40px;
     box-sizing: border-box;
-    background: rgb(39, 39, 39);
+    background:  #1A1A2E;
 }
 
 #orca_word{
-    color: black;
+    color: white;
 }
 
 .menu-wrapper {
@@ -35,7 +35,7 @@
     position: absolute;
     right: 0;
     list-style: none;
-    background: #fff;
+    background: #1A1A2E;
     padding: 10px 0;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
@@ -47,12 +47,12 @@
 .dropdown li a {
     display: block;
     padding: 10px 20px;
-    color: #333;
+    color: white;
     text-decoration: none;
 }
 
 .dropdown li a:hover {
-    background: #f3f3f3;
+    background: #4F46E5;
 }
 
 #menu-toggle:checked + .menu-icon + .dropdown {
@@ -80,7 +80,7 @@
     position: absolute;
     right: 0;
     list-style: none;
-    background: #fff;
+    background: #1A1A2E;
     padding: 10px 0;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
@@ -92,12 +92,12 @@
 .dropdown2 li a {
     display: block;
     padding: 10px 20px;
-    color: #333;
+    color: white;
     text-decoration: none;
 }
 
 .dropdown2 li a:hover {
-    background: #f3f3f3;
+    background: #4F46E5;
 }
 
 #menu-toggle2:checked + .menu-icon2 + .dropdown2 {
@@ -142,6 +142,8 @@
 .link h1{
     position: relative;
     margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 .link h1::before{
@@ -150,8 +152,8 @@
     left: 50%;
     bottom: -4px;
     width: 0;
-    height: 2px;
-    background: black;
+    height: 3px;
+    background: linear-gradient(90deg, #4F46E5, #6366F1);
     transform: translateX(-50%);
     transition: width 0.3s ease;
 }
@@ -161,10 +163,10 @@
 }
 
 #cart{
-    border: 1px solid linear-gradient(to right bottom ,blue, rgb(122, 27, 237));
+    border: none;
     padding: 10px;
     border-radius: 50px;
-    background: linear-gradient(to right bottom ,blue, rgb(122, 27, 237));
+    background: linear-gradient(135deg, #4F46E5, #7C3AED);
     display: flex;
     align-items: center;
     /* margin-top: 5px; */

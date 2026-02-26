@@ -3,8 +3,10 @@
 }
 
 #footer{
-    color: white;
-    background-color: rgb(39, 39, 39);
+    /* font-family: 'Inter', sans-serif; */
+    font-size: 15px;
+    color: #BEBEBE;
+    background-color: #121224;
     width: 100%;
     padding-top: 20px;
 }
@@ -28,11 +30,11 @@
 }
 
 .footer_icon{
-    color: #e76704;
+    color: #6366F1;
 }
 
 .footer_links{
-    color: white;
+    color: #BEBEBE;
     text-decoration: none;
     font-size: 18px;
     align-items: center;
@@ -40,13 +42,13 @@
 
 .footer_topics {
     display: inline-block;
-    border-bottom: 1px solid #e76704;
+    border-bottom: 2px solid #6366F1;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 #footer_input{
-    background-color: rgb(70, 70, 70);
+    background-color: #2A2A40;
     outline: none;
     border-radius: 50px;
     border: none;
@@ -59,12 +61,12 @@
 }
 
 #footer_input::placeholder{
-    color: white;
+    color: #BEBEBE;
 }
 
 #footer_submit{
     border-radius: 50px;
-    background-color: #e76704;
+    background: linear-gradient(135deg, #6366F1, #4F46E5);
     color: white;
     height: 39px;
     width: 74px;
@@ -74,12 +76,16 @@
     cursor: pointer;
 }
 
+#footer_submit:hover{
+    background: #4447ef;
+}
+
 #face_icon{
     border: solid;
     padding: 9px 13px;
     border-radius: 50%;
-    color: #e76704;
-    background-color: #e76704;
+    color: #4F46E5;
+    background-color: #4F46E5;
     -webkit-text-fill-color: white;
     cursor: pointer;
 }
@@ -88,8 +94,8 @@
     border: solid;
     padding: 10px 11px;
     border-radius: 50%;
-    color: #e76704;
-    background-color: #e76704;
+    color: #4F46E5;
+    background-color: #4F46E5;
     -webkit-text-fill-color: white;
     cursor: pointer;
 }
@@ -98,8 +104,8 @@
     border: solid;
     padding: 10px 11px;
     border-radius: 50%;
-    color: #e76704;
-    background-color: #e76704;
+    color: #4F46E5;
+    background-color: #4F46E5;
     -webkit-text-fill-color: white;
     cursor: pointer;
 }
@@ -137,7 +143,7 @@
     text-decoration: none;
     color: white;
     border-radius: 10px;
-    background: linear-gradient(135deg, #ff7a18, #ffb347);
+    background: linear-gradient(135deg, #4F46E5, #7C3AED);
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     transition: 0.3s;
 }
