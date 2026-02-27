@@ -5,6 +5,10 @@ body{
     flex-direction: column;
     background-color: #212121;
     align-items: center;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    color: #E0E0E0;
 }
 
 #main_content{
