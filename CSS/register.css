@@ -19,14 +19,19 @@ body {
 }
 
 .main_border {
-    border: solid;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     width: 550px;
     height: 535px;
     border-radius: 10px;
     outline: none;
     backdrop-filter: blur(5px);
     transform: translateY(-50px);
-    
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+
 }
 
 .dis_flx{
@@ -36,16 +41,16 @@ body {
 
 }
 
-#words_inside_box1{
+#words_inside_box1 {
     text-align: center;
-    background: linear-gradient(to right ,rgb(9, 232, 113) 8%, rgb(0, 166, 255) , rgb(8, 238, 192) 90%);
+    background: linear-gradient(to right, rgb(9, 232, 113), rgb(0, 166, 255), rgb(8, 238, 192));
     background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;
 }
 
 .input_text {
     border-radius: 6px;
-    padding: 6px 20px;
+    padding: 6px 15px;
     background: rgba(255, 255, 255, 0.1); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -58,6 +63,28 @@ body {
     height: 20px;
     font-size: 20px;
 }
+
+.input_text:focus {
+    border: 1px solid #4F46E5;
+    box-shadow: 0 0 10px rgba(79,70,229,0.5);
+}
+
+
+.input_text:-webkit-autofill,
+.input_text:-webkit-autofill:hover,
+.input_text:-webkit-autofill:focus,
+.input_text:-webkit-autofill:active {
+
+    -webkit-text-fill-color: white !important;
+    color: white !important;
+
+    -webkit-backdrop-filter: blur(10px) inset !important;
+    backdrop-filter: blur(10px) inset !important;
+
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+
 .edit_label{
     font-size: 25px;
 
@@ -68,13 +95,11 @@ body {
 }
 
 
-#submit_button{
-    margin: 20px;
+#submit_button {
+    margin: 20px auto;
+    display: block;
     cursor: pointer;    
-    background: rgba(255, 255, 255, 0.1); 
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background: linear-gradient(to right ,rgb(9, 232, 113) 8%, rgb(0, 166, 255) , rgb(8, 238, 192) 90%);
+    background: linear-gradient(to right, rgb(9, 232, 113), rgb(0, 166, 255), rgb(8, 238, 192));
     background-clip: text;
     -webkit-text-fill-color: transparent; 
     border-radius: 5px;
@@ -82,19 +107,22 @@ body {
     height: 35px;
     font-size: 20px;
     outline: none;
-    transition:  transform 1s, box-shadow 1s ;
+    transition: 0.5s;
 }
 
-#submit_button:hover{
-
-    transform: translateY(-2px) translateX(-2px);
-    box-shadow: 5px 5px 5px rgb(136, 136, 136);
+#submit_button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(74, 62, 94, 0.4);
 }
 
 #icons{
     justify-content: center;
     display: flex;
     gap: 30px;
+}
+
+#icons i:hover {
+    transform: scale(1.1);
 }
 
 #face_icon{
@@ -128,7 +156,14 @@ body {
     cursor: pointer; 
 }
 
+a {
+    color: #7C3AED;
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 767px) {
     .main_border {

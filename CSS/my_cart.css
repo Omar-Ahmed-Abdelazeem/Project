@@ -30,12 +30,19 @@ body{
 #main_carts{
     display: flex;
     flex-direction: column;
-    background-color: white ;
+    background: linear-gradient(135deg, #1A1A2E, #1F1F35);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     border-radius: 10px;
     padding-left: 10px;
     width: 65%;
     height: 490px;
     
+}
+
+#main_carts:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
 }
 #above_line{
     
@@ -47,7 +54,7 @@ body{
 
 #topics{
     padding-left: 20px;
-    color: rgb(151, 152, 153);
+    color: #B0B0C0;
 }
 
 #trash {
@@ -86,7 +93,7 @@ body{
 #details{
     display: flex;
     gap: 10px;
-    color: rgb(134, 135, 136);
+    color: #9CA3AF;
     transform: translateY(-30px);
 }
 
@@ -101,10 +108,24 @@ body{
     font-size: 20px;
     border-radius: 7px;
     padding-left: 10px;
-    border-color: rgb(0, 0, 0);
+    background-color: #0F0F1A;
+    color: white;
+    border: 1px solid #4F46E5;
     outline: none;
     align-items: center;
 }
+
+#quantity:focus{
+    border-color: #7C3AED;
+    box-shadow: 0 0 5px rgba(124,58,237,0.5);
+}
+
+#quantity[type="number"]::-webkit-outer-spin-button,
+#quantity[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 
 
 #image{
@@ -156,7 +177,8 @@ body{
 }
 
 #delete_item {
-    border: 1px solid;
+    border: 1px solid #4F46E5;
+    color: #E0E0E0;
     padding: 10px;
     border-radius: 8px;
     height: 20px;
@@ -169,8 +191,7 @@ body{
 
 
 #delete_item:hover{
-    background-color: red;
-    color: white;
+    background: #7C3AED;
 }
 
 #line_and_under{
@@ -182,7 +203,7 @@ body{
 #line{
     width: 101%;
     height: 2px;
-    background-color: #a9a6a6;
+    background-color: #4F46E5;
     transform: translateX(-10px);
     
 }
@@ -190,22 +211,32 @@ body{
 
 
 button{
-    transform: translateX(20px) translateY(20px);
+    /* transform: translateX(20px) translateY(20px); */
+    margin-top: 10px;
+    margin-left: 10px;
     width: 160px;
     height: 30px;
-    background-color: white;
-    border: 1px solid rgb(180, 173, 173);
-    color: rgb(0, 0, 0);
+    background: linear-gradient(135deg, #4F46E5, #7C3AED);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
     cursor: pointer;
-    border-radius: 5px;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(124,58,237,0.4);
 }
 
 #free_deli{
     width: 300px;
     height: 60px;
     border-radius: 10px;
-    background-color: rgb(126, 236, 126);
+    background: rgba(79,70,229,0.15);
+    border: 1px solid #4F46E5;
     padding-left: 10px;
+    padding-bottom: 10px;
     margin-top: 10px;
     display: flex;
     gap: 10px;
@@ -214,14 +245,14 @@ button{
 
 
 #free_words{
-    color: rgb(7, 100, 7);
+    color: rgb(102, 198, 102);
     transform: translateY(-6px);
     font-size: 20px;
 }
 
 #truck{
-    color:rgb(7, 100, 7) ;
-    padding-top: 18px;
+    color: rgb(102, 198, 102);
+    padding-top: 20px;
 }
 
 #main_dil{
@@ -237,10 +268,11 @@ button{
 
 
 #coupon_box{
-    background-color: white;
+    background: #1A1A2E;
+    border-radius: 15px;
+    border: 1px solid #4F46E5;
     width: 280px;
     height: 140px;
-    border-radius: 10px;
     padding-left: 30px;
 
     
@@ -251,17 +283,19 @@ button{
     height: 25px ;
     width: 180px;
     outline: none;
-    border-color: #000000;
+    background-color: #0F0F1A;
+    color: white;
+    border: 1px solid #4F46E5;
 }
 
 #edit_label{
-    border: none;
-    height: 30px;
+    height: 29px;
     width: 60px;
     padding: 4px;
     border-radius: 4px;
     cursor: pointer;
-    background-color: blue;
+    border: none;
+    background: linear-gradient(135deg, #4F46E5, #7C3AED);
     color: white;
     transform: translateX(-47px);
 }
@@ -271,7 +305,9 @@ button{
     height: 180px;
     border-radius: 10px;
     padding-left: 30px;
-    background-color: white;
+    background: #1A1A2E;
+    border-radius: 15px;
+    border: 1px solid #4F46E5;
 }
 
 #price_box{
@@ -304,12 +340,13 @@ button{
 
 #paymet_methods{
     display: flex;
-    gap: 10px;
-    transform: translateX(10px);
+    justify-content: space-evenly;
+    /* gap: 40px; */
+    transform: translateX(-20px);
 }
 
 #image_card{
-    width: 70px;
+    /* width: 70px; */
     height: 40px;
     border-radius: 10px;
     transform: translateY(-30px);

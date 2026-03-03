@@ -3,7 +3,7 @@ body{
     min-height:100%;
     display: flex;
     flex-direction: column;
-    background-color: #212121;
+    background-color: #0F0F1A;
     align-items: center;
     font-family: 'Inter', 'Roboto', sans-serif;
     line-height: 1.3;
@@ -46,6 +46,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.1);
 }
 
 
@@ -91,10 +95,11 @@ body{
 }
 
 .job{
-    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 10px;
     border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0,255,150,0.1);
+    border: 1px solid rgba(0,255,150,0.3);
+    backdrop-filter: blur(5px);
 
 }
 
@@ -114,7 +119,7 @@ body{
 #line1{
     width: 580px;
     height: 5px;
-    background-color: rgb(40, 175, 40);
+    background: linear-gradient(to right, transparent, #00e676, transparent);
     transform: translateY(-90px);
 }
 
@@ -128,7 +133,7 @@ body{
 #line2{
     width: 580px;
     height: 3px;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, transparent, #00e676, transparent);
     transform: translateY(-70px);
 
 }
@@ -146,32 +151,35 @@ body{
 #line3{
     width: 580px;
     height: 3px;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, transparent, #00e676, transparent);
     transform: translateY(-5px);
 
 }
 
 #edit_button{
-    transform: translateY(25px);
+    /* transform: translateY(25px); */
     width: 150px;
     height: 40px;
     font-size: 25px;
     cursor: pointer;
-    background-color: green;
+    background: linear-gradient(45deg, #00c853, #00e676);
+    box-shadow: 0 4px 15px rgba(0,200,83,0.4);
     border: none;
     border-radius: 10px;
     color: white;
-    transition: background-color 1s, color 1s  ;
+    transition: 0.5s  ;
 
 }
+#edit_button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(3, 20, 18);
+    transform: scale(1.05);
+}
+
 #bar_links{
     margin-top: 0px;
 }
 
-#edit_button:hover{
-    background-color: rgb(0, 0, 0);
-    color: rgb(43, 197, 43);
-}
 
 
 @media (max-width: 767px) {
