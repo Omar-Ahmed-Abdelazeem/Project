@@ -177,11 +177,6 @@ a:hover {
 
 @media (max-width: 767px) {
 
-    #word_welcome{
-        text-align: center;
-        transform: translateY(-50px);
-    }
-
     .input_text{
         width: 200px;
         height: 10px;
@@ -194,7 +189,6 @@ a:hover {
 
     #word_welcome {
         font-size: 45px;
-        transform: translateY(-200px);
     }
 
     #Log_word {
@@ -204,7 +198,7 @@ a:hover {
     .main_border {
         padding: 20px;
         height: 400px;
-        transform: translateY(80px);
+        width: 80%;
     }
 
     .edit_label {

@@ -117,12 +117,11 @@ body{
 #main_cart{
     background: #1B1B3A;
     color: white;
-    height: 480px;
+    /* height: 480px; */
     width: 300px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 0px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);

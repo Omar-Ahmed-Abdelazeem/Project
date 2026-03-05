@@ -108,7 +108,7 @@ summary{
 @media (max-width: 767px) {
     details{
         width: 88%;
-        max-width: 767px;
+        max-width: 450px;
 
     }
 

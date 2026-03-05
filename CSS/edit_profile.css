@@ -194,9 +194,4 @@ legend{
         width: 150px;
     }
 
-    #update_button{
-        transform: translateX(110px) translateY(20px);
-    }
-
-
 }
