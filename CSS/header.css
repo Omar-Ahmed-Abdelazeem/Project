@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 #bar{
     margin: 0;
     top: 0;
@@ -169,9 +173,7 @@
     background: linear-gradient(135deg, #4F46E5, #7C3AED);
     display: flex;
     align-items: center;
-    /* margin-top: 5px; */
     gap: 6px;
-    /* transform: translateY(-65px); */
 }
 
 #cart_icon{
@@ -202,18 +204,17 @@ a{
     }
 
     #icon_main{
-        font-size: 10px;
-        gap: 5px;
+        font-size: 12px;
+        gap: 8px;
+        margin-top: 24px;
     }
     #orca_image{
-        height: 28px;
-        width: 28px;
-        margin-top: 8px;
+        height: 30px;
+        width: 30px;
+        margin-top: 13px;
     }
     .menu-wrapper2{
         display: block;
-        /* margin-top: -13px; */
-        
     }
     
     .menu-wrapper{
@@ -227,14 +228,13 @@ a{
     #bar_links{
         gap: 15px;
     }
-        
+
     #cart_icon{
         font-size: 15px;
-        /* transform: translateY(-13px); */
     }
     #cart_word{
         font-size: 18px;
-        /* margin-top: -15px; */
+
     }
     .menu-icon2 {
         font-size: 20px;
@@ -262,7 +262,6 @@ a{
     }
 
     #bar_links{
-        /* margin-top: 40px; */
         gap: 10px;
 
     }

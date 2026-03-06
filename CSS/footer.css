@@ -3,7 +3,6 @@
 }
 
 #footer{
-    /* font-family: 'Inter', sans-serif; */
     font-size: 15px;
     color: #BEBEBE;
     background-color: #121224;
@@ -15,6 +14,7 @@
     display: flex;
     gap: 150px;
     justify-content: center;
+    padding-bottom: 10px;
 
 }
 
@@ -126,9 +126,7 @@
 #up{
     width: 20%;
 }
-#mid{
-    width: 20%;
-}
+
 
 #go_up {
     position: fixed;
@@ -145,6 +143,7 @@
     border-radius: 10px;
     background: linear-gradient(135deg, #4F46E5, #7C3AED);
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    z-index: 111;
     transition: 0.3s;
 }
 
@@ -166,7 +165,6 @@
         flex-direction: column;
         text-align: center;
         margin-top: 10px;
-        /* left: 0; */
         
     }
     .padd{
@@ -239,6 +237,6 @@
     }
 
     #mid{
-        width: 23%;
+        width: 24%;
     }
 }
