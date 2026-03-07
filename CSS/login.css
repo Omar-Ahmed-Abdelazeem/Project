@@ -187,6 +187,7 @@ a:hover {
 
     #word_welcome {
         font-size: 45px;
+        transform: translateY(-50px);
     }
 
     #Log_word {

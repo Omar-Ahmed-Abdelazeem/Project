@@ -444,7 +444,7 @@ button:hover{
         margin: 0 auto;
         
     }
-    #line2{
+    /* #line2{
         transform: translateX(50px) translateY(-30px);
     }
     #price_box{
@@ -460,10 +460,10 @@ button:hover{
     #total_box{
         transform: translateX(50px)  translateY(-40px)
 
-    }
+    } */
     #paymet_methods{
         transform: translateX(0px);
-        gap: 0px;
+        gap: 40px;
     }
     
     #line_and_under{
@@ -496,6 +496,7 @@ button:hover{
         align-self: center;
         justify-content: space-between;
         text-align: center; */
+        justify-items: center;
         
     }
     
