@@ -310,6 +310,7 @@ button:hover{
 #price_box{
     display: flex;
     gap: 100px;
+    
 }
 
 #disc_box{
@@ -444,11 +445,25 @@ button:hover{
         
     }
     #line2{
-        transform: translateX(0px) translateY(-30px);
+        transform: translateX(50px) translateY(-30px);
+    }
+    #price_box{
+        transform: translateX(45px)
+    }
+    
+    
+    #disc_box{
+        transform: translateX(50px)  translateY(-20px)
+        
+    }
+    
+    #total_box{
+        transform: translateX(50px)  translateY(-40px)
+
     }
     #paymet_methods{
         transform: translateX(0px);
-        gap: 50px;
+        gap: 0px;
     }
     
     #line_and_under{
@@ -477,7 +492,10 @@ button:hover{
         width: 101%;
         max-width: 767px;
         margin: 0 auto;
-        justify-items: center;
+        /* align-items: center;
+        align-self: center;
+        justify-content: space-between;
+        text-align: center; */
         
     }
     

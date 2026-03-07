@@ -105,7 +105,9 @@ body{
 
 #box_in_box{
     display: flex;
-    gap: 280px;
+    /* gap: 280px; */
+    justify-content: space-between;
+    width: 70%;
     color: white;
     font-size: 25px;
     transform: translateY(-90px);
@@ -200,10 +202,10 @@ body{
         width: 95%;
         max-width: 430px;
         background: linear-gradient(rgba(0, 0, 0 ,0.3) 0%,
-                                    rgba(0, 0, 0 ,0.3) 40%,
-                                    rgba(0, 0, 0, 0.5) 40%,
-                                    rgba(0, 0, 0, 0.5) 55.5%,
-                                    rgba(0, 0, 0 ,0.3) 55.5%,
+                                    rgba(0, 0, 0 ,0.3) 39%,
+                                    rgba(0, 0, 0, 0.5) 39%,
+                                    rgba(0, 0, 0, 0.5) 54.5%,
+                                    rgba(0, 0, 0 ,0.3) 54.5%,
                                     rgba(0, 0, 0 ,0.3) 100%) ;
     }
     #line1{
@@ -219,16 +221,13 @@ body{
         max-width: 767px;
     }
 
-    #box_in_box{
-        gap: 180px;
-    }
     
     #jobs{
         gap: 4px;
     }
 
     .job{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     #words{

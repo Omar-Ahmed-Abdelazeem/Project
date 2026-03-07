@@ -242,10 +242,6 @@ button:hover{
         text-align: center;
     }
 
-    .color_size{
-        transform: translateX(50px);
-    }
-
     #condition{
         width: 100%;
         justify-content: space-between;
@@ -253,6 +249,8 @@ button:hover{
 
     #display_flex1{
         gap: 13px;
+        font-size: 18px;
+
     }
 
     .line1{
@@ -261,9 +259,15 @@ button:hover{
     #all_prices{
         width: 92%;
     }
+    .color , .size{
+        color: #A0A0B8;
+        margin: 8px auto;
+
+    }
+
 
     button{
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
