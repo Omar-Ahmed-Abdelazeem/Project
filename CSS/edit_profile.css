@@ -170,7 +170,7 @@ legend{
 @media (max-width: 767px) {
 
     #main_edit{
-        padding: 0 10px;
+        padding: 0 8px; 
         width: 95%;
         margin-top: 20px;
         margin-bottom: 20px;
