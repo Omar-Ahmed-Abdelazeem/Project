@@ -300,7 +300,6 @@ button:hover{
 #ckeckout_box{
     width: 280px;
     height: 180px;
-    border-radius: 10px;
     padding-left: 30px;
     background: #1A1A2E;
     border-radius: 15px;
@@ -430,7 +429,6 @@ button:hover{
     }
     #free_deli{
         padding-left: 10px;
-        /* margin: 0 auto; */
         width: 98%;
         max-width: 767px;
         margin-top: 10px;
@@ -446,8 +444,8 @@ button:hover{
     }
 
     #paymet_methods{
-        transform: translateX(0px);
-        gap: 40px;
+        transform: translateX(-40px);
+        gap: 20px;
     }
     
     #line_and_under{
@@ -472,11 +470,10 @@ button:hover{
     
     #ckeckout_box{
         
-        padding-left: 0px;
-        width: 101%;
+        padding-left: 40px;
+        width: 90%;
         max-width: 767px;
         margin: 0 auto;
-        justify-items: center;
         
     }
     
