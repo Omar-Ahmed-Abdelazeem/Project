@@ -112,6 +112,10 @@ body{
     outline: none;
     align-items: center;
 }
+#quantity::placeholder{
+    color: rgb(148, 146, 146);
+}
+
 
 #quantity:focus{
     border-color: #7C3AED;
@@ -458,8 +462,8 @@ button:hover{
         gap: 20px;
     }
     #coupon_box{
-        padding-left: 2px;
-        width: 101%;
+        padding-left: 30px;
+        width: 93%;
         max-width: 767px;
     }
     
