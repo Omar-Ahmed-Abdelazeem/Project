@@ -280,7 +280,7 @@ button:hover{
 
 #coupon_text{
     border-radius: 4px;
-    height: 24px ;
+    height: 23px ;
     width: 180px;
     outline: none;
     background-color: #0F0F1A;
@@ -291,7 +291,6 @@ button:hover{
 #edit_label{
     height: 29px;
     width: 60px;
-    padding: 4px;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -545,6 +544,7 @@ button:hover{
     }
     #main_P{
         gap: 0px;
+        width: 25%;
     }
 
     #all_price{
@@ -620,9 +620,6 @@ button:hover{
     #main_q{
         width: 25%;
         gap: 20px;
-    }
-    #main_P{
-        width: 25%;
     }
     #trash{
         width: 7%;
