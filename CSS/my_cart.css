@@ -280,7 +280,7 @@ button:hover{
 
 #coupon_text{
     border-radius: 4px;
-    height: 25px ;
+    height: 24px ;
     width: 180px;
     outline: none;
     background-color: #0F0F1A;
@@ -398,9 +398,6 @@ button:hover{
         gap: 125px;
     }
     
-    #total_box{
-        gap: 130px;
-    }
     #details{
         display: flex;
         flex-direction: column;
@@ -608,13 +605,8 @@ button:hover{
         font-size: 15px;
     }
     
-    #disc_box{
-        gap: 125px;
-    }
+
     
-    #total_box{
-        gap: 130px;
-    }
 
     #quantity{
         height: 25px;
