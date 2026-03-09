@@ -30,7 +30,6 @@ body{
     display: flex;
     flex-direction: column;
     background: linear-gradient(135deg, #1A1A2E, #1F1F35);
-    border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     border-radius: 10px;
     padding-left: 10px;
@@ -425,7 +424,7 @@ button:hover{
     #main_carts{
         align-items: center;
         gap: 0px;
-        padding-left: 0;
+        padding-left: 1px;
         width: 103%;
         max-width: 767px;
         height: 440px;
@@ -440,10 +439,8 @@ button:hover{
     }
     #line{
         align-items: center;
-        transform: translateX(-10px);
         width: 206%;
         max-width: 767px;
-        margin: 0 auto;
         
     }
 
