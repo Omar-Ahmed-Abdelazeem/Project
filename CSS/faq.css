@@ -91,7 +91,7 @@ summary{
 #search_icon{
     position: absolute;
     right: 50%;
-    transform: translateX(330px) translateY(-58px);
+    transform: translateX(340px) translateY(-58px);
     color: rgb(151, 151, 151);
     font-size: 23px;
     cursor: pointer;
@@ -119,7 +119,7 @@ summary{
 
     
     #search_icon{
-        transform: translateX(118px) translateY(-57px);
+        transform: translateX(135px) translateY(-57px);
     }
 
 
@@ -133,7 +133,7 @@ summary{
 
     
     #search_icon{
-        transform: translateX(210px) translateY(-57px);
+        transform: translateX(235px) translateY(-57px);
     }
 
 }
